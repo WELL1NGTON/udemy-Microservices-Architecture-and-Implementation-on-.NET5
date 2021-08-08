@@ -1,0 +1,261 @@
+# Microservices Architecture and Implementation on .NET 5
+
+[![Udemy](https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.png)](https://www.udemy.com/)
+
+Curso Udemy: [Microservices Architecture and Implementation on .NET 5](https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/)
+
+## Instrutor
+
+### Mehmet Özkaya - Software Architect
+
+[Dados da página do curso](https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/#instructor-1):
+
+> Creator of github aspnetrun repositories
+>
+> - 15+ years hands on experience in Microsoft .NET Development. Experience in Web Application Development using C#, .NET Core, ASP.NET/MVC/ASP.NET Core, JavaScript, Angular, TypeScript
+> - Strong experience Design and implement RESTful APIs JSON design, SOAP Web Services using WCF and ASP.NET Core Web API
+> - Excellent knowledge on Object-Oriented Design and Development, SOLID principles, DDD, Design Patterns, SOA, TDD and Unit Testing.
+> - Strong experience using Web Front End Technologies such as DOM, HTML5, CSS3 and JavaScript, JSON, JQuery, TypeScript
+> - Experience using ORM tools such as Entity Framework Core, NHibernate, Dapper.
+> - Strong experience of Distributed Software Architecture and Messaging Technologies in Microservices Architecture, API Gateways (Orleans), BDD, DDD/CQRS patterns, Distributed Message Broker Service Bus Applications(MQTT, AMQT, MassTransit, RabbitMQ, Azure Service Bus), Event Sourcing, Cloud Computing Architectures, IAAS platforms (AWS, Azure), Application Containerization, Docker.
+> - Using Distributed Caching and Related Open Source Tools such as Redis, Camunda, Castle Windsor, AutoMapper, Log4Net.
+>
+> GitHub : mehmetozkaya  
+> GitHub : aspnetrun
+
+Links:
+
+- [GitHub](https://github.com/mehmetozkaya)
+- [Linkedin](https://www.linkedin.com/in/mehmet-%C3%B6zkaya-444a935/)
+- [Twitter](https://twitter.com/ezozkme)
+- [Medium](https://mehmetozkaya.medium.com/)
+- [YouTube](https://www.youtube.com/user/mehmetozkaya)
+
+## Progresso do curso
+
+16 seções • 177 aulas • Duração total: 24h 31m
+
+### Introduction
+
+- [ ] Introduction 06:34
+- [ ] Prerequisites and Source Code 03:09
+- [ ] Run Final Application 13:48
+- [ ] What are Microservices ? 01:38
+- [ ] Monolithic Architecture Pros-Cons 03:01
+- [ ] Microservices Architecture Pros-Cons 04:36
+- [ ] Monolithic vs Microservices Architecture Comparison 02:52
+- [ ] What is Containers and Docker ? 01:15
+- [ ] Docker Containers, Images, and Registries 01:54
+
+### Developing Your First Microservice - Catalog.API with MongoDb
+
+- [ ] Introduction 01:29
+- [ ] Create New Github Repository For Our Microservice Project 01:48
+- [ ] Clone Github Repository and Create New Solution with Visual Studio 04:54
+- [ ] Create Asp.Net Web Api Project for Catalog.API Microservice 05:34
+- [ ] MongoDb in Catalog Microservices 01:56
+- [ ] Setup Mongo Docker Database for Catalog.API Microservices 08:00
+- [ ] MongoDb CLI Commands using Interactive Terminal For MongoDb Connection 06:48
+- [ ] Analysis and Architecting of Catalog Microservices 06:32
+- [ ] Repository Design Pattern 02:55
+- [ ] Developing Catalog.API Microservices Creating Entities and MongoDB.Driver Nuget 07:37
+- [ ] Developing Data Layer - Connect Mongo Docker Container from Catalog.API 16:06
+- [ ] Developing Business Layer - Repository Pattern on Catalog.API Microservice 13:10
+- [ ] Developing Presentation Layer - Create CatalogController Class for Catalog.API 22:29
+- [ ] Test and Run Catalog Microservice 07:22
+- [ ] Containerize Catalog Microservices with MongoDB using Docker Compose 10:26
+- [ ] Adding MongoDb image into Docker-Compose File for Multi-Container Docker Environment 11:26
+- [ ] Test on Docker environment - Catalog.API and MongoDb into Docker-Compose File 07:30
+- [ ] Debugging Docker-Compose on Visual Studio for Catalog.API with MongoDb 16:10
+- [ ] Mongo GUI Options for MongoDb Docker Image 04:41
+
+### Developing Basket.API Microservices with Redis
+
+- [ ] Introduction 01:31
+- [ ] Create Asp.Net Web Api Project for Catalog.API Microservice 05:31
+- [ ] Redis in Basket Microservices 02:06
+- [ ] Setup Redis Cache Docker Database for Basket.API Microservices 05:18
+- [ ] Redis CLI Commands using Interactive Terminal For Redis Connection 03:36
+- [ ] Analysis and Architecting of Basket Microservices 07:20
+- [ ] Developing Basket.API Microservices Creating Entities 06:08
+- [ ] Connect Redis Docker Container from Basket.API Microservice w/ AddStackExchange 07:30
+- [ ] Developing Repository Pattern on Basket.API Microservice 12:56
+- [ ] Create BasketController Class for Basket.API Microservice 12:22
+- [ ] Test and Run Basket Microservice 07:17
+- [ ] Containerize Basket Microservices with Redis using Docker Compose 10:28
+- [ ] Adding Redis image into Docker-Compose File for Multi-Container Docker Env 05:46
+- [ ] Test on Docker environment - Catalog.API and MongoDb into Docker-Compose File 07:18
+- [ ] Container management with Portainer 12:20
+
+### Developing Discount.API Microservices with PostgreSQL
+
+- [ ] Introduction 01:46
+- [ ] Create Asp.Net Web Api Project for Discount.API Microservice 05:24
+- [ ] PostgreSQL in Discount Microservices 01:53
+- [ ] Setup PostgreSQL Docker Database for Discount.API Microservices 05:20
+- [ ] Setup pgAdmin Management Portal for PostgreSQL Database for Discount.API Microse 13:07
+- [ ] Create Coupon Table in the DiscountDb of PostgreSQL Database with pgAdmin Manage 06:36
+- [ ] Analysis and Architecting of Discount Microservices 05:42
+- [ ] Developing Discount.API Microservices Creating Entities 01:42
+- [ ] Developing Repository Pattern Connect PostgreSQL use Dapper on Discount.API 19:03
+- [ ] Create DiscountController Class for Discount.API Microservice 08:15
+- [ ] Test and Run Discount Microservice 09:21
+- [ ] Containerize Discount Microservices with PostgreSQL using Docker Compose 05:50
+- [ ] Adding PostgreSQL image into Docker-Compose File for Multi-Container Docker Env 02:37
+- [ ] Migrate PostreSQL Database When Discount Microservices Startup 22:30
+- [ ] Test on Docker environment - Discount.API and PostgreSQL into Docker-Compose 09:50
+
+### Developing Discount.Grpc Microservices for Microservices Grpc Communication
+
+- [ ] Introduction 01:52
+- [ ] gRPC usage of Microservices Communication 02:28
+- [ ] Using gRPC in Microservices Communication with .Net - Example Repository 01:49
+- [ ] Create Discount Grpc Microservices Project in Microservices Solution 13:56
+- [ ] Managing PostreSQL Database Operations in Discount Grpc 08:59
+- [ ] Developing discount.proto ProtoBuf file for Exposing Crud Services Discount Grpc 09:57
+- [ ] Generate Proto Service Class from Discount proto File in Discount Grpc 05:01
+- [ ] Developing DiscountService class to Implement Grpc Proto Service Methods 09:47
+- [ ] Implementing AutoMapper into DiscountService Class of Discount Grpc Microservice 05:20
+- [ ] Developing CRUD in DiscountService class to Implement CRUD Grpc Proto Service 05:35
+
+### Developing CRUD in DiscountService class to Implement CRUD Grpc Proto Service
+
+- [ ] Introduction 01:45
+- [ ] Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item 1 08:49
+- [ ] Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item 2 11:57
+- [ ] Register Discount Grpc Client and Discount Grpc Service into the Basket.API 07:54
+- [ ] Test and Run Discount Grpc and Basket Microservice 09:05
+- [ ] Containerize Discount Grpc Microservices with PostgreSQL using Docker Compose 06:27
+- [ ] Adding Grpc DiscountUrl Configuration in Basket.API image configuration on DC 04:24
+- [ ] Test on Docker environment - Basket.API integrate Discount.Grpc into DC 20:46
+
+### Developing Ordering Microservices with Clean Architecture and CQRS Implemntation
+
+- [ ] Introduction 01:57
+- [ ] Analysis and Architecting of Ordering Microservices 06:35
+- [ ] Design Principles - SOLID 03:08
+- [ ] Design Principles - Dependency Inversion Principles (DIP) 02:40
+- [ ] Design Principles - Separation of Concerns (SoC) 01:52
+- [ ] Domain Driven Design - DDD 04:30
+- [ ] Clean Architecture with Domain Driven Design(DDD) 09:44
+- [ ] CQRS (Command Query Responsibility Segregation) Design Pattern 02:19
+- [ ] Eventual Consisteny and Event Sourcing with CQRS Design Pattern 05:45
+- [ ] Code Structure on CQRS and DDD Implementation in Ordering Microservices 06:07
+- [ ] Create Asp.Net Web Api Project for Ordering.API Microservice 04:21
+- [ ] Create Clean Architecture Layers that Ordering Domain - Application and Infra 04:21
+- [ ] Adding Project References Between Clean Architecture Layers 04:30
+- [ ] Developing Ordering.Domain Layer in Clean Architecture 06:20
+- [ ] Developing Ordering.Application Layer with CQRS Pattern Implementation in Clean 03:40
+- [ ] Developing Ordering.Application Layer - Application Contracts 15:52
+- [ ] CQRS Implementation with Mediator Design Pattern 03:15
+- [ ] Developing Ordering.Application Layer- Application Features - GetOrdersListQuery 19:00
+- [ ] Developing Ordering.Application Layer - Application Command Features - Checkout 25:01
+- [ ] Developing Ordering.Application Layer- Application Command Features- UpdateOrder 14:52
+- [ ] Developing Ordering.Application Layer- Application Command Features- DeleteOrder 13:42
+- [ ] Developing Ordering.Application Layer - Application Behaviours 17:33
+- [ ] Developing Ordering.Application Layer - Application Service Registrations 14:44
+- [ ] Developing Ordering.API Presentation Layer in Clean Architecture 17:24
+- [ ] Developing Ordering.Infrastructure Layer in Clean Architecture - Persistence 12:43
+- [ ] Developing Ordering.Infrastructure Layer in Clean Architecture - Repositories 22:50
+- [ ] Developing Ordering.Infrastructure Layer - Infrastructure Service Registrations 10:48
+- [ ] Register Application and Infrastructure Layer Dependencies into Ordering.API 07:42
+- [ ] Adding EF Core Migrations for Code-First Approach in Ordering Microservices 06:21
+- [ ] Applying EF.Core Migrations to Sql Server Automatically When Ordering.API 18:36
+- [ ] Adding SqlServer image into Docker-Compose File for Multi-Container Docker Env 09:07
+- [ ] Test and Run Ordering Microservice 07:22
+- [ ] Test Ordering Microservices CQRS and Clean Architecture Flows 19:36
+- [ ] Containerize Ordering Microservices with SqlServer using Docker Compose 10:49
+- [ ] Test on Docker environment - Ordering.API and SqlServer into Docker-Compose File 13:01
+
+### Microservices Async Communication w/ RabbitMQ & MassTransit for Checkout Order
+
+- [ ] Introduction 03:59
+- [ ] Microservices Communication Types Request-Driven or Event-Driven Architecture 03:31
+- [ ] What is RabbitMQ, Main Components of RabbitMQ 03:49
+- [ ] RabbitMQ Exchange Types 04:18
+- [ ] Adding RabbitMQ image into Docker-Compose File for Multi-Container Docker Env 09:20
+- [ ] Analysis & Design BuildingBlocks EventBus.Messages Class Library Project 04:20
+- [ ] Developing BuildingBlocks EventBus.Messages Class Library 10:56
+- [ ] Produce RabbitMQ Event From Basket Microservice Publisher of BasketCheckoutEvent 17:41
+- [ ] Publish BasketCheckout Queue Message Event in Basket.API Controller Class 20:58
+- [ ] Publish BasketCheckout Queue Message Event in Basket.API Controller Class Part 2 07:42
+- [ ] Test BasketCheckout Event in Basket.API Microservices 11:51
+- [ ] Consume RabbitMQ Event From Ordering Microservice Subscriber of BasketCheckout 21:48
+- [ ] Subscribe BasketCheckout Queue Message Event in Ordering BasketCheckoutConsumer 18:09
+- [ ] Test BasketCheckout Event in Basket.API and Ordering.API Microservices 17:17
+- [ ] Test MassTransit Retry Mecanism of RabbitMQ Connection Problems 07:57
+- [ ] Containerize Basket and Ordering Microservices w/ RabbitMQ using Docker Compose 18:16
+- [ ] Test on Docker environment - Basket and Ordering with RabbitMQ in Docker-Compose 13:04
+
+### Building API Gateways with Ocelot and Applying Gateway Routing Pattern
+
+- [ ] Introduction 01:39
+- [ ] Gateway Routing pattern 01:26
+- [ ] API Gateway Pattern 02:34
+- [ ] BFF Backend for Frontend Pattern 02:32
+- [ ] Main features in the API Gateway pattern 02:01
+- [ ] Ocelot API Gateway 02:32
+- [ ] Authentication and authorization in Ocelot API Gateway 02:13
+- [ ] Analysis & Design of API Gateway Microservices 02:26
+- [ ] Developing Ocelot Api Gateway Microservices with Adapting Ocelot Nuget Package 12:01
+- [ ] Adding ocelot.json Configuration File For Routing Microservices in Ocelot Api Gw 33:00
+- [ ] Test Ocelot Api Gateway With Routing Internal Microservices 15:40
+- [ ] Rate Limiting in Ocelot Api Gateway with Configuring Ocelot.json File 09:54
+- [ ] Response Caching in Ocelot Api Gateway with Configuring Ocelot.json File 06:35
+- [ ] Configure Ocelot Json For Docker Development Environment in Ocelot Api Gateway 10:58
+- [ ] Containerize Ocelot Api Gateway Microservices using Docker Compose 06:02
+- [ ] Test on Docker environment - Ocelot API Gateway into Docker-Compose File 12:51
+
+### Api Gateway - Requests Aggregation Pattern in Shopping.Aggregator
+
+- [ ] Introduction 01:51
+- [ ] Gateway Aggregation pattern 03:18
+- [ ] Analysis & Design of Shopping.Aggregator Microservices - Gateway Aggregation 03:22
+- [ ] Developing Shopping.Aggregator Microservices 05:01
+- [ ] Developing Dto Model Class for Api Aggreation Operations 11:13
+- [ ] Developing Service Classes for Consuming Internal Microservices in Shopping.Aggr 21:31
+- [ ] Developing Service Classes Consuming Internal Microservices in Shopping.Aggr-2 30:02
+- [ ] Test Shopping.Aggreation Microservices with Docker Internal Microservices 15:28
+- [ ] Containerize Shopping.Aggregator Microservices using Docker Compose 07:14
+- [ ] Test on Docker environment - Shopping.Aggregator into Docker-Compose File 06:29
+
+### Securing Microservices with IdentityServer4 and Ocelot
+
+- [ ] Introduction 02:04
+
+### Building Shopping Web Application Microservices
+
+- [ ] Introduction 01:50
+- [ ] Background of Project 02:20
+- [ ] Analysis & Design Shopping Web Application Microservice 03:07
+- [ ] Developing AspnetBasics Shopping Web Application Microservices 08:28
+- [ ] Overview of AspnetBasics Shopping Web Application Microservices 12:54
+- [ ] Refactoring of AspnetBasics Shopping Web Application Microservices 11:11
+- [ ] Register Http Client Factory for Consuming Api Gateway in AspnetBasics Shopping 06:41
+- [ ] Developing Service Implementations for Consuming Api Gateway in AspnetBasics 10:31
+- [ ] Developing Index Page in AspnetBasics Shopping Web Application Microservices 06:20
+- [ ] Developing Product Page in AspnetBasics Shopping Web Application Microservices 07:03
+- [ ] Developing Product Detail Page in AspnetBasics Shopping Web Application 02:36
+- [ ] Developing Cart and Order Page in AspnetBasics Shopping Web Application 08:36
+- [ ] Developing CheckOut Page in AspnetBasics Shopping Web Application Microservices 07:16
+- [ ] Refactoring Developments in AspnetBasics Shopping Web Application Microservices 04:37
+- [ ] Test AspnetBasics Shopping Web Application Microservices Over Ocelot Api Gateway 16:53
+- [ ] Containerize AspnetBasics Shopping Web Application Microservices using DC 06:39
+- [ ] Test on Docker environment - AspnetBasics Shopping Web Microservices into Docker 09:02
+
+### Assignment - Developing Blazor Single Page Application with Custom Api Gateway
+
+- [ ] Developing Blazor Single Page Application with Custom Api Gateway for CRUD 02:06
+
+### Cross-Cutting Concerns - Microservices Observability with Distributed Logging
+
+- [ ] Microservices Observability with Distributed Logging, Health Monitoring, Resilie 02:17
+
+### Deploying Microservices to Kubernetes, Automating with Azure DevOps into AKS
+
+- [ ] Deploying Microservices to Kubernetes, Automating with Azure DevOps into AKS 02:15
+
+### Thanks and Bonus Lecture
+
+- [ ] Bonus Lecture 05:41
+- [ ] Thanks 00:37
