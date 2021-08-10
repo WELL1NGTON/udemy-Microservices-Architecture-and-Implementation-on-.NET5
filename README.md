@@ -37,8 +37,8 @@ Links:
 
 ### Introduction
 
-- [ ] Introduction 06:34
-- [ ] Prerequisites and Source Code 03:09
+- [x] Introduction 06:34
+- [x] Prerequisites and Source Code 03:09
 - [ ] Run Final Application 13:48
 - [ ] What are Microservices ? 01:38
 - [ ] Monolithic Architecture Pros-Cons 03:01
