@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <RuleSet Name="StyleCop rules for Core Application" Description="Custom Rules" ToolsVersion="10.0">
     <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.CSharp.ReadabilityRules">
+        <Rule Id="CS1573" Action="None" />
+        <Rule Id="CS1591" Action="None" />
+        <Rule Id="CS1712" Action="None" />
         <Rule Id="SA1101" Action="None" />
         <Rule Id="SA1107" Action="Error" />
         <Rule Id="SA1117" Action="Warning" />
