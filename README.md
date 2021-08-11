@@ -56,10 +56,10 @@ Links:
 - [x] MongoDb in Catalog Microservices 01:56
 - [x] Setup Mongo Docker Database for Catalog.API Microservices 08:00
 - [x] MongoDb CLI Commands using Interactive Terminal For MongoDb Connection 06:48
-- [ ] Analysis and Architecting of Catalog Microservices 06:32
-- [ ] Repository Design Pattern 02:55
-- [ ] Developing Catalog.API Microservices Creating Entities and MongoDB.Driver Nuget 07:37
-- [ ] Developing Data Layer - Connect Mongo Docker Container from Catalog.API 16:06
+- [x] Analysis and Architecting of Catalog Microservices 06:32
+- [x] Repository Design Pattern 02:55
+- [x] Developing Catalog.API Microservices Creating Entities and MongoDB.Driver Nuget 07:37
+- [x] Developing Data Layer - Connect Mongo Docker Container from Catalog.API 16:06
 - [ ] Developing Business Layer - Repository Pattern on Catalog.API Microservice 13:10
 - [ ] Developing Presentation Layer - Create CatalogController Class for Catalog.API 22:29
 - [ ] Test and Run Catalog Microservice 07:22

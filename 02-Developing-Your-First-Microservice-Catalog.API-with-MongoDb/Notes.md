@@ -53,3 +53,9 @@ Pacotes Nuget que serão utilizados:
 Vai utilizar o Repository Pattern na API Catalog
 
 ![Repository Pattern](images/repository-pattern.png)
+
+### Developing Data Layer - Connect Mongo Docker Container from Catalog.API
+
+Configura a "Data Layer" e criou uma seed de dados iniciais para o banco.
+
+Obs.: Adicionei o pacote StyleCop.Analyzers e configurei ele para auxiliar na edição do código.

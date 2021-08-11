@@ -8,13 +8,13 @@
         <Rule Id="SA1309" Action="None" />
         <Rule Id="SA1402" Action="Warning" />
         <Rule Id="SA1500" Action="Info" />
-        <Rule Id="SA1600" Action="Info" />
+        <Rule Id="SA1600" Action="None" />
         <Rule Id="SA1602" Action="Info" />
         <Rule Id="SA1606" Action="Info" />
         <Rule Id="SA1611" Action="Info" />
         <Rule Id="SA1615" Action="Info" />
         <Rule Id="SA1623" Action="None" />
-        <Rule Id="SA1633" Action="Info" />
+        <Rule Id="SA1633" Action="None" />
         <Rule Id="SA1642" Action="None" />
         <Rule Id="IDE0036" Action="None" />
     </Rules>
