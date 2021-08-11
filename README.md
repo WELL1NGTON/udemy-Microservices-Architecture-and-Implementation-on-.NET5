@@ -72,7 +72,7 @@ Links:
 ### [Developing Basket.API Microservices with Redis](03-Developing-Basket.API-Microservices-with-Redis/Notes.md)
 
 - [x] Introduction 01:31
-- [ ] Create Asp.Net Web Api Project for Catalog.API Microservice 05:31
+- [x] Create Asp.Net Web Api Project for Catalog.API Microservice 05:31
 - [ ] Redis in Basket Microservices 02:06
 - [ ] Setup Redis Cache Docker Database for Basket.API Microservices 05:18
 - [ ] Redis CLI Commands using Interactive Terminal For Redis Connection 03:36
