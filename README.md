@@ -60,9 +60,9 @@ Links:
 - [x] Repository Design Pattern 02:55
 - [x] Developing Catalog.API Microservices Creating Entities and MongoDB.Driver Nuget 07:37
 - [x] Developing Data Layer - Connect Mongo Docker Container from Catalog.API 16:06
-- [ ] Developing Business Layer - Repository Pattern on Catalog.API Microservice 13:10
-- [ ] Developing Presentation Layer - Create CatalogController Class for Catalog.API 22:29
-- [ ] Test and Run Catalog Microservice 07:22
+- [x] Developing Business Layer - Repository Pattern on Catalog.API Microservice 13:10
+- [x] Developing Presentation Layer - Create CatalogController Class for Catalog.API 22:29
+- [x] Test and Run Catalog Microservice 07:22
 - [ ] Containerize Catalog Microservices with MongoDB using Docker Compose 10:26
 - [ ] Adding MongoDb image into Docker-Compose File for Multi-Container Docker Environment 11:26
 - [ ] Test on Docker environment - Catalog.API and MongoDb into Docker-Compose File 07:30

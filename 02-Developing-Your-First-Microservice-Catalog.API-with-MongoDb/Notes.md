@@ -59,3 +59,7 @@ Vai utilizar o Repository Pattern na API Catalog
 Configura a "Data Layer" e criou uma seed de dados iniciais para o banco.
 
 Obs.: Adicionei o pacote StyleCop.Analyzers e configurei ele para auxiliar na edição do código.
+
+### Test and Run Catalog Microservice
+
+Testes da API Catalog pelo Swagger e pelo Postman (Utilizando arquivo [json](Resources/23-Microservices.Net.postman_collection.json) de collections do postman)
