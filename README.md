@@ -39,19 +39,19 @@ Links:
 
 - [x] Introduction 06:34
 - [x] Prerequisites and Source Code 03:09
-- [ ] Run Final Application 13:48
-- [ ] What are Microservices ? 01:38
-- [ ] Monolithic Architecture Pros-Cons 03:01
-- [ ] Microservices Architecture Pros-Cons 04:36
-- [ ] Monolithic vs Microservices Architecture Comparison 02:52
-- [ ] What is Containers and Docker ? 01:15
-- [ ] Docker Containers, Images, and Registries 01:54
+- [x] Run Final Application 13:48
+- [x] What are Microservices ? 01:38
+- [x] Monolithic Architecture Pros-Cons 03:01
+- [x] Microservices Architecture Pros-Cons 04:36
+- [x] Monolithic vs Microservices Architecture Comparison 02:52
+- [x] What is Containers and Docker ? 01:15
+- [x] Docker Containers, Images, and Registries 01:54
 
 ### Developing Your First Microservice - Catalog.API with MongoDb
 
-- [ ] Introduction 01:29
-- [ ] Create New Github Repository For Our Microservice Project 01:48
-- [ ] Clone Github Repository and Create New Solution with Visual Studio 04:54
+- [x] Introduction 01:29
+- [x] Create New Github Repository For Our Microservice Project 01:48
+- [x] Clone Github Repository and Create New Solution with Visual Studio 04:54
 - [ ] Create Asp.Net Web Api Project for Catalog.API Microservice 05:34
 - [ ] MongoDb in Catalog Microservices 01:56
 - [ ] Setup Mongo Docker Database for Catalog.API Microservices 08:00

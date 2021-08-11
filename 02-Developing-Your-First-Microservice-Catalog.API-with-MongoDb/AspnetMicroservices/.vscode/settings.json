@@ -1,0 +1,21 @@
+{
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true,
+        "**/*.csproj.user": true,
+        "**/.vs": true,
+        "**/Migrations": false,
+    },
+    "editor.rulers": [
+        150
+    ],
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/bin/*": true,
+        "**/obj/*": true
+    },
+    "vssolution.solutionExplorerIcons": "mix",
+    "sqltools.connections": []
+}
