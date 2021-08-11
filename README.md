@@ -69,9 +69,9 @@ Links:
 - [x] Debugging Docker-Compose on Visual Studio for Catalog.API with MongoDb 16:10
 - [x] Mongo GUI Options for MongoDb Docker Image 04:41
 
-### Developing Basket.API Microservices with Redis
+### [Developing Basket.API Microservices with Redis](03-Developing-Basket.API-Microservices-with-Redis/Notes.md)
 
-- [ ] Introduction 01:31
+- [x] Introduction 01:31
 - [ ] Create Asp.Net Web Api Project for Catalog.API Microservice 05:31
 - [ ] Redis in Basket Microservices 02:06
 - [ ] Setup Redis Cache Docker Database for Basket.API Microservices 05:18

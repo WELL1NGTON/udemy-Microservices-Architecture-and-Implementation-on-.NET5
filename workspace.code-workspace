@@ -14,6 +14,10 @@
 		}
 	],
 	"settings": {
-		"vssolution.solutionExplorerIcons": "mix"
+		"omnisharp.enableRoslynAnalyzers": true,
+		"vssolution.solutionExplorerIcons": "mix",
+		"vssolution.altSolutionFolders": [
+			"03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices/src"
+		]
 	}
 }
