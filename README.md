@@ -63,11 +63,11 @@ Links:
 - [x] Developing Business Layer - Repository Pattern on Catalog.API Microservice 13:10
 - [x] Developing Presentation Layer - Create CatalogController Class for Catalog.API 22:29
 - [x] Test and Run Catalog Microservice 07:22
-- [ ] Containerize Catalog Microservices with MongoDB using Docker Compose 10:26
-- [ ] Adding MongoDb image into Docker-Compose File for Multi-Container Docker Environment 11:26
-- [ ] Test on Docker environment - Catalog.API and MongoDb into Docker-Compose File 07:30
-- [ ] Debugging Docker-Compose on Visual Studio for Catalog.API with MongoDb 16:10
-- [ ] Mongo GUI Options for MongoDb Docker Image 04:41
+- [x] Containerize Catalog Microservices with MongoDB using Docker Compose 10:26
+- [x] Adding MongoDb image into Docker-Compose File for Multi-Container Docker Environment 11:26
+- [x] Test on Docker environment - Catalog.API and MongoDb into Docker-Compose File 07:30
+- [x] Debugging Docker-Compose on Visual Studio for Catalog.API with MongoDb 16:10
+- [x] Mongo GUI Options for MongoDb Docker Image 04:41
 
 ### Developing Basket.API Microservices with Redis
 

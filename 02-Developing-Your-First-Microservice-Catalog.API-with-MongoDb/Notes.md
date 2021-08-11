@@ -63,3 +63,15 @@ Obs.: Adicionei o pacote StyleCop.Analyzers e configurei ele para auxiliar na ed
 ### Test and Run Catalog Microservice
 
 Testes da API Catalog pelo Swagger e pelo Postman (Utilizando arquivo [json](Resources/23-Microservices.Net.postman_collection.json) de collections do postman)
+
+### Containerize Catalog Microservices with MongoDB using Docker Compose
+
+Como estou usando vscode no linux, não foi possível gerar o arquivo `docker-compose.dcproj` para integrar o compose a solution, então apenas criei os arquivos docker-compose.yaml e docker-compose.override.yaml em src.
+
+### Test on Docker environment - Catalog.API and MongoDb into Docker-Compose File
+
+Apenas testes com `docker-compose up` e `docker-compose down`.
+
+### Mongo GUI Options for MongoDb Docker Image
+
+O instrutor apenas demonstrou que é possível utilizar outra imagem em conjunto com os que estão rodando atualmente para acessar o banco de dados mongo com uma interface gráfica, ele demonstra isso utilizando a imagem docker [mongoclient/mongoclient](https://hub.docker.com/r/mongoclient/mongoclient/).
