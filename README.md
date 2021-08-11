@@ -35,7 +35,7 @@ Links:
 
 16 seções • 177 aulas • Duração total: 24h 31m
 
-### Introduction
+### [Introduction](01-Introduction/Notes.md)
 
 - [x] Introduction 06:34
 - [x] Prerequisites and Source Code 03:09
@@ -47,15 +47,15 @@ Links:
 - [x] What is Containers and Docker ? 01:15
 - [x] Docker Containers, Images, and Registries 01:54
 
-### Developing Your First Microservice - Catalog.API with MongoDb
+### [Developing Your First Microservice - Catalog.API with MongoDb](02-Developing-Your-First-Microservice-Catalog.API-with-MongoDb/Notes.md)
 
 - [x] Introduction 01:29
 - [x] Create New Github Repository For Our Microservice Project 01:48
 - [x] Clone Github Repository and Create New Solution with Visual Studio 04:54
-- [ ] Create Asp.Net Web Api Project for Catalog.API Microservice 05:34
-- [ ] MongoDb in Catalog Microservices 01:56
-- [ ] Setup Mongo Docker Database for Catalog.API Microservices 08:00
-- [ ] MongoDb CLI Commands using Interactive Terminal For MongoDb Connection 06:48
+- [x] Create Asp.Net Web Api Project for Catalog.API Microservice 05:34
+- [x] MongoDb in Catalog Microservices 01:56
+- [x] Setup Mongo Docker Database for Catalog.API Microservices 08:00
+- [x] MongoDb CLI Commands using Interactive Terminal For MongoDb Connection 06:48
 - [ ] Analysis and Architecting of Catalog Microservices 06:32
 - [ ] Repository Design Pattern 02:55
 - [ ] Developing Catalog.API Microservices Creating Entities and MongoDB.Driver Nuget 07:37
