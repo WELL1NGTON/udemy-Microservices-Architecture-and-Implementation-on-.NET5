@@ -47,3 +47,9 @@ Pacotes Nuget que serão utilizados:
 
 - [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore/)
 - [MongoDB.Driver](https://www.nuget.org/packages/mongodb.driver)
+
+### Repository Design Pattern
+
+Vai utilizar o Repository Pattern na API Catalog
+
+![Repository Pattern](images/repository-pattern.png)

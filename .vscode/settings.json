@@ -16,6 +16,5 @@
         "**/bin/*": true,
         "**/obj/*": true
     },
-    "vssolution.solutionExplorerIcons": "mix",
-    "sqltools.connections": []
+    "vssolution.solutionExplorerIcons": "mix"
 }

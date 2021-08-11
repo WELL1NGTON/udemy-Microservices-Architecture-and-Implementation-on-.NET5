@@ -1,14 +1,15 @@
 {
 	"folders": [
 		{
+			"name": "Raiz do projeto",
 			"path": "."
 		},
 		{
+			"name": "02-AspnetMicroservices",
 			"path": "02-Developing-Your-First-Microservice-Catalog.API-with-MongoDb/AspnetMicroservices"
 		}
 	],
 	"settings": {
-		"vssolution.solutionExplorerIcons": "mix",
-		"sqltools.connections": []
+		"vssolution.solutionExplorerIcons": "mix"
 	}
 }
