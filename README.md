@@ -81,14 +81,14 @@ Links:
 - [x] Redis CLI Commands using Interactive Terminal For Redis Connection 03:36
 - [x] Analysis and Architecting of Basket Microservices 07:20
 - [x] Developing Basket.API Microservices Creating Entities 06:08
-- [ ] Connect Redis Docker Container from Basket.API Microservice w/ AddStackExchange 07:30
-- [ ] Developing Repository Pattern on Basket.API Microservice 12:56
-- [ ] Create BasketController Class for Basket.API Microservice 12:22
-- [ ] Test and Run Basket Microservice 07:17
-- [ ] Containerize Basket Microservices with Redis using Docker Compose 10:28
-- [ ] Adding Redis image into Docker-Compose File for Multi-Container Docker Env 05:46
-- [ ] Test on Docker environment - Catalog.API and MongoDb into Docker-Compose File 07:18
-- [ ] Container management with Portainer 12:20
+- [x] Connect Redis Docker Container from Basket.API Microservice w/ AddStackExchange 07:30
+- [x] Developing Repository Pattern on Basket.API Microservice 12:56
+- [x] Create BasketController Class for Basket.API Microservice 12:22
+- [x] Test and Run Basket Microservice 07:17
+- [x] Containerize Basket Microservices with Redis using Docker Compose 10:28
+- [x] Adding Redis image into Docker-Compose File for Multi-Container Docker Env 05:46
+- [x] Test on Docker environment - Catalog.API and MongoDb into Docker-Compose File 07:18
+- [x] Container management with Portainer 12:20
 
 ### Developing Discount.API Microservices with PostgreSQL
 

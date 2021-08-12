@@ -74,3 +74,9 @@ get name
 - [Microsoft.Extensions.Caching.StackExchangeRedis](https://www.nuget.org/packages/Microsoft.Extensions.Caching.StackExchangeRedis)
 - [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/)
 - [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore/)
+
+### Container management with Portainer
+
+Adicionou o [portainer](https://www.portainer.io/) ao docker-compose.
+
+DockerHub: [link](https://hub.docker.com/r/portainer/portainer-ce)
