@@ -10,7 +10,29 @@
             "request": "attach"
         },
         {
-            "name": ".NET Core Launch (web)",
+            "name": "Basket.API",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Services/Basket/Basket.API/bin/Debug/net5.0/Basket.API.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/Services/Basket/Basket.API/bin/Debug/net5.0/",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger/"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://0.0.0.0:5001"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Catalog.API",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -24,7 +46,8 @@
                 "uriFormat": "%s/swagger/"
             },
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://0.0.0.0:5000"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
