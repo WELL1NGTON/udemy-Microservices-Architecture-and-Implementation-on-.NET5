@@ -4,6 +4,9 @@
 
 Curso Udemy: [Microservices Architecture and Implementation on .NET 5](https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/)
 
+Segui esse curso utilizando o [Visual Studio Code](https://code.visualstudio.com/) e utilizei a função de workspaces dele para separar os códigos por seção. Eu preferi fazer assim pois consigo ter uma melhor noção do progresso e caso exista alguma refatoração em uma seção posterior do curso, eu consigo ter uma visão melhor de como era um código até uma parte do curso e como ficou depois sem ter que ficar pulando entre commits.  
+As configurações dos workspaces estão no arquivo [workspace.code-workspace](./workspace.code-workspace).
+
 ## Instrutor
 
 ### Mehmet Özkaya - Software Architect
@@ -73,11 +76,11 @@ Links:
 
 - [x] Introduction 01:31
 - [x] Create Asp.Net Web Api Project for Catalog.API Microservice 05:31
-- [ ] Redis in Basket Microservices 02:06
-- [ ] Setup Redis Cache Docker Database for Basket.API Microservices 05:18
-- [ ] Redis CLI Commands using Interactive Terminal For Redis Connection 03:36
-- [ ] Analysis and Architecting of Basket Microservices 07:20
-- [ ] Developing Basket.API Microservices Creating Entities 06:08
+- [x] Redis in Basket Microservices 02:06
+- [x] Setup Redis Cache Docker Database for Basket.API Microservices 05:18
+- [x] Redis CLI Commands using Interactive Terminal For Redis Connection 03:36
+- [x] Analysis and Architecting of Basket Microservices 07:20
+- [x] Developing Basket.API Microservices Creating Entities 06:08
 - [ ] Connect Redis Docker Container from Basket.API Microservice w/ AddStackExchange 07:30
 - [ ] Developing Repository Pattern on Basket.API Microservice 12:56
 - [ ] Create BasketController Class for Basket.API Microservice 12:22

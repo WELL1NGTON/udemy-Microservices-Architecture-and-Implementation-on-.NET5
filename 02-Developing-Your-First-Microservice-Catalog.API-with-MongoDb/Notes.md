@@ -27,7 +27,7 @@ Foram executados alguns [comandos de teste](16-Comandos-Testados.md) para demons
 Métodos (REST) da API Catalog:
 
 | Method | Request URI                                    | Use Case                        |
-| ------ | ---------------------------------------------- | ------------------------------- |
+|--------|------------------------------------------------|---------------------------------|
 | GET    | api/v1/Catalog                                 | Listing Products and Categories |
 | GET    | api/v1/Catalog/{id}                            | Get Product with product Id     |
 | GET    | api/v1/Catalog/GetProductByCategory/{category} | Get Products with category      |

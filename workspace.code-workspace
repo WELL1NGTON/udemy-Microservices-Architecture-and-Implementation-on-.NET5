@@ -15,6 +15,7 @@
 	],
 	"settings": {
 		"omnisharp.enableRoslynAnalyzers": true,
+		"omnisharp.defaultLaunchSolution": "./03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices/src/aspnetrun-microservices.sln",
 		"vssolution.solutionExplorerIcons": "mix",
 		"vssolution.altSolutionFolders": [
 			"03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices/src"
