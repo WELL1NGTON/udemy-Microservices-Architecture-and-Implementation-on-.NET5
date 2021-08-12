@@ -4,14 +4,14 @@
 			"name": "Raiz do projeto",
 			"path": "."
 		},
-		{
-			"name": "02-AspnetMicroservices",
-			"path": "02-Developing-Your-First-Microservice-Catalog.API-with-MongoDb/AspnetMicroservices"
-		},
-		{
-			"name": "03-AspnetMicroservices",
-			"path": "03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices"
-		},
+		// {
+		// 	"name": "02-AspnetMicroservices",
+		// 	"path": "02-Developing-Your-First-Microservice-Catalog.API-with-MongoDb/AspnetMicroservices"
+		// },
+		// {
+		// 	"name": "03-AspnetMicroservices",
+		// 	"path": "03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices"
+		// },
 		{
 			"name": "04-AspnetMicroservices",
 			"path": "04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices"

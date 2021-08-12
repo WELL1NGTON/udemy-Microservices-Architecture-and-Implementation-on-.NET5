@@ -92,8 +92,8 @@ Links:
 
 ### [Developing Discount.API Microservices with PostgreSQL](04-Developing-Discount.API-Microservices-with-PostgreSQL/Notes.md)
 
-- [ ] Introduction 01:46
-- [ ] Create Asp.Net Web Api Project for Discount.API Microservice 05:24
+- [x] Introduction 01:46
+- [x] Create Asp.Net Web Api Project for Discount.API Microservice 05:24
 - [ ] PostgreSQL in Discount Microservices 01:53
 - [ ] Setup PostgreSQL Docker Database for Discount.API Microservices 05:20
 - [ ] Setup pgAdmin Management Portal for PostgreSQL Database for Discount.API Microse 13:07
