@@ -90,7 +90,7 @@ Links:
 - [x] Test on Docker environment - Catalog.API and MongoDb into Docker-Compose File 07:18
 - [x] Container management with Portainer 12:20
 
-### Developing Discount.API Microservices with PostgreSQL
+### [Developing Discount.API Microservices with PostgreSQL](04-Developing-Discount.API-Microservices-with-PostgreSQL/Notes.md)
 
 - [ ] Introduction 01:46
 - [ ] Create Asp.Net Web Api Project for Discount.API Microservice 05:24

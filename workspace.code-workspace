@@ -11,14 +11,18 @@
 		{
 			"name": "03-AspnetMicroservices",
 			"path": "03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices"
+		},
+		{
+			"name": "04-AspnetMicroservices",
+			"path": "04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices"
 		}
 	],
 	"settings": {
 		"omnisharp.enableRoslynAnalyzers": true,
-		"omnisharp.defaultLaunchSolution": "./03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices/src/aspnetrun-microservices.sln",
+		"omnisharp.defaultLaunchSolution": "./04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices/src/aspnetrun-microservices.sln",
 		"vssolution.solutionExplorerIcons": "mix",
 		"vssolution.altSolutionFolders": [
-			"03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices/src"
+			"04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices/src"
 		]
 	}
 }
