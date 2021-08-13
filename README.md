@@ -99,14 +99,14 @@ Links:
 - [x] Setup pgAdmin Management Portal for PostgreSQL Database for Discount.API Microse 13:07
 - [x] Create Coupon Table in the DiscountDb of PostgreSQL Database with pgAdmin Manage 06:36
 - [x] Analysis and Architecting of Discount Microservices 05:42
-- [ ] Developing Discount.API Microservices Creating Entities 01:42
-- [ ] Developing Repository Pattern Connect PostgreSQL use Dapper on Discount.API 19:03
-- [ ] Create DiscountController Class for Discount.API Microservice 08:15
-- [ ] Test and Run Discount Microservice 09:21
-- [ ] Containerize Discount Microservices with PostgreSQL using Docker Compose 05:50
-- [ ] Adding PostgreSQL image into Docker-Compose File for Multi-Container Docker Env 02:37
-- [ ] Migrate PostreSQL Database When Discount Microservices Startup 22:30
-- [ ] Test on Docker environment - Discount.API and PostgreSQL into Docker-Compose 09:50
+- [x] Developing Discount.API Microservices Creating Entities 01:42
+- [x] Developing Repository Pattern Connect PostgreSQL use Dapper on Discount.API 19:03
+- [x] Create DiscountController Class for Discount.API Microservice 08:15
+- [x] Test and Run Discount Microservice 09:21
+- [x] Containerize Discount Microservices with PostgreSQL using Docker Compose 05:50
+- [x] Adding PostgreSQL image into Docker-Compose File for Multi-Container Docker Env 02:37
+- [x] Migrate PostreSQL Database When Discount Microservices Startup 22:30
+- [x] Test on Docker environment - Discount.API and PostgreSQL into Docker-Compose 09:50
 
 ### Developing Discount.Grpc Microservices for Microservices Grpc Communication
 

@@ -1,17 +1,24 @@
 {
+	"extensions": {
+		"recommendations": [
+			"ms-dotnettools.csharp",
+			"doggy8088.netcore-extension-pack",
+			"fernandoescolar.vscode-solution-explorer"
+		]
+	},
 	"folders": [
 		{
 			"name": "Raiz do projeto",
 			"path": "."
 		},
-		// {
-		// 	"name": "02-AspnetMicroservices",
-		// 	"path": "02-Developing-Your-First-Microservice-Catalog.API-with-MongoDb/AspnetMicroservices"
-		// },
-		// {
-		// 	"name": "03-AspnetMicroservices",
-		// 	"path": "03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices"
-		// },
+		{
+			"name": "02-AspnetMicroservices",
+			"path": "02-Developing-Your-First-Microservice-Catalog.API-with-MongoDb/AspnetMicroservices"
+		},
+		{
+			"name": "03-AspnetMicroservices",
+			"path": "03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices"
+		},
 		{
 			"name": "04-AspnetMicroservices",
 			"path": "04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices"
@@ -19,10 +26,10 @@
 	],
 	"settings": {
 		"omnisharp.enableRoslynAnalyzers": true,
-		"omnisharp.defaultLaunchSolution": "src/aspnetrun-microservices.sln",
+		"omnisharp.defaultLaunchSolution": "04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices/src/aspnetrun-microservices.sln",
 		"vssolution.solutionExplorerIcons": "mix",
 		"vssolution.altSolutionFolders": [
-			"src"
+			"04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices/src"
 		]
 	}
 }
