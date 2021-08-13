@@ -48,3 +48,30 @@ INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('IPhone X', 'IPhon
 
 INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Samsung 10', 'Samsung Discount', 100);
 ```
+
+E Por fim visualizar os items inseridos com:
+
+```sql
+SELECT * FROM public.coupon
+    ORDER BY id ASC 
+```
+
+### Analysis and Architecting of Discount Microservices
+
+#### Métodos (REST) da API Discount
+
+![Métodos CRUD](images/crud.png)
+
+#### Arquitetura da API Discount
+
+![Discount Layered Archictecture](images/discount-layered-archictecture.png)
+
+![Simple CRUD Microservices](images/simple-crud-microservices.png)
+
+![Simple Data-Driven, CRUD Microservice](images/simple-data-driven-crud-microservice.png)
+
+#### Nuget Packages do Microserviço Discount
+
+- [Npgsql](https://www.nuget.org/packages/Npgsql/)
+- [Dapper](https://www.nuget.org/packages/Dapper/)
+- [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore/)

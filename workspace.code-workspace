@@ -19,10 +19,10 @@
 	],
 	"settings": {
 		"omnisharp.enableRoslynAnalyzers": true,
-		"omnisharp.defaultLaunchSolution": "./04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices/src/aspnetrun-microservices.sln",
+		"omnisharp.defaultLaunchSolution": "src/aspnetrun-microservices.sln",
 		"vssolution.solutionExplorerIcons": "mix",
 		"vssolution.altSolutionFolders": [
-			"04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices/src"
+			"src"
 		]
 	}
 }
