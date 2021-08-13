@@ -108,7 +108,7 @@ Links:
 - [x] Migrate PostreSQL Database When Discount Microservices Startup 22:30
 - [x] Test on Docker environment - Discount.API and PostgreSQL into Docker-Compose 09:50
 
-### Developing Discount.Grpc Microservices for Microservices Grpc Communication
+### [Developing Discount.Grpc Microservices for Microservices Grpc Communication](05-Developing-Discount.Grpc-Microservices-for-Microservices-Grpc-Communication/Notes.md)
 
 - [ ] Introduction 01:52
 - [ ] gRPC usage of Microservices Communication 02:28
