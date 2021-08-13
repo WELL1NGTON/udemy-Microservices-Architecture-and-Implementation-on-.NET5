@@ -94,10 +94,10 @@ Links:
 
 - [x] Introduction 01:46
 - [x] Create Asp.Net Web Api Project for Discount.API Microservice 05:24
-- [ ] PostgreSQL in Discount Microservices 01:53
-- [ ] Setup PostgreSQL Docker Database for Discount.API Microservices 05:20
-- [ ] Setup pgAdmin Management Portal for PostgreSQL Database for Discount.API Microse 13:07
-- [ ] Create Coupon Table in the DiscountDb of PostgreSQL Database with pgAdmin Manage 06:36
+- [x] PostgreSQL in Discount Microservices 01:53
+- [x] Setup PostgreSQL Docker Database for Discount.API Microservices 05:20
+- [x] Setup pgAdmin Management Portal for PostgreSQL Database for Discount.API Microse 13:07
+- [x] Create Coupon Table in the DiscountDb of PostgreSQL Database with pgAdmin Manage 06:36
 - [ ] Analysis and Architecting of Discount Microservices 05:42
 - [ ] Developing Discount.API Microservices Creating Entities 01:42
 - [ ] Developing Repository Pattern Connect PostgreSQL use Dapper on Discount.API 19:03
