@@ -30,14 +30,18 @@
         {
             "name": "05-AspnetMicroservices",
             "path": "05-Developing-Discount.Grpc-Microservices-for-Microservices-Grpc-Communication/AspnetMicroservices"
+        },
+        {
+            "name": "06-AspnetMicroservices",
+            "path": "06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/AspnetMicroservices"
         }
     ],
     "settings": {
         "omnisharp.enableRoslynAnalyzers": true,
-        "omnisharp.defaultLaunchSolution": "05-Developing-Discount.Grpc-Microservices-for-Microservices-Grpc-Communication/AspnetMicroservices/src/aspnetrun-microservices.sln",
+        "omnisharp.defaultLaunchSolution": "06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/AspnetMicroservices/src/aspnetrun-microservices.sln",
         "vssolution.solutionExplorerIcons": "mix",
         "vssolution.altSolutionFolders": [
-            "05-Developing-Discount.Grpc-Microservices-for-Microservices-Grpc-Communication/AspnetMicroservices/src"
+            "06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/AspnetMicroservices/src"
         ]
     }
 }

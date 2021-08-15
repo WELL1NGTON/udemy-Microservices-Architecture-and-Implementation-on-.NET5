@@ -121,10 +121,10 @@ Links:
 - [x] Implementing AutoMapper into DiscountService Class of Discount Grpc Microservice 05:20
 - [x] Developing CRUD in DiscountService class to Implement CRUD Grpc Proto Service 05:35
 
-### Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item
+### [Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item](06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/Notes.md)
 
-- [ ] Introduction 01:45
-- [ ] Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item 1 08:49
+- [x] Introduction 01:45
+- [x] Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item 1 08:49
 - [ ] Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item 2 11:57
 - [ ] Register Discount Grpc Client and Discount Grpc Service into the Basket.API 07:54
 - [ ] Test and Run Discount Grpc and Basket Microservice 09:05
