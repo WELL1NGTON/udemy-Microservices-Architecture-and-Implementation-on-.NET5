@@ -27,9 +27,6 @@
                 "ASPNETCORE_ENVIRONMENT": "Development",
                 "ASPNETCORE_URLS": "http://0.0.0.0:5000"
             },
-            "sourceFileMap": {
-                "/Views": "${workspaceFolder}/Views"
-            }
         },
         {
             "name": "Basket.API",
@@ -49,9 +46,6 @@
                 "ASPNETCORE_ENVIRONMENT": "Development",
                 "ASPNETCORE_URLS": "http://0.0.0.0:5001"
             },
-            "sourceFileMap": {
-                "/Views": "${workspaceFolder}/Views"
-            }
         },
         {
             "name": "Discount.API",
@@ -71,8 +65,19 @@
                 "ASPNETCORE_ENVIRONMENT": "Development",
                 "ASPNETCORE_URLS": "http://0.0.0.0:5002"
             },
-            "sourceFileMap": {
-                "/Views": "${workspaceFolder}/Views"
+        },
+        {
+            "name": "Discount.Grpc",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Services/Discount/Discount.Grpc/bin/Debug/net5.0/Discount.Grpc.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/Services/Discount/Discount.Grpc/bin/Debug/net5.0/",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://0.0.0.0:5003"
             }
         },
     ]

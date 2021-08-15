@@ -110,8 +110,8 @@ Links:
 
 ### [Developing Discount.Grpc Microservices for Microservices Grpc Communication](05-Developing-Discount.Grpc-Microservices-for-Microservices-Grpc-Communication/Notes.md)
 
-- [ ] Introduction 01:52
-- [ ] gRPC usage of Microservices Communication 02:28
+- [x] Introduction 01:52
+- [x] gRPC usage of Microservices Communication 02:28
 - [ ] Using gRPC in Microservices Communication with .Net - Example Repository 01:49
 - [ ] Create Discount Grpc Microservices Project in Microservices Solution 13:56
 - [ ] Managing PostreSQL Database Operations in Discount Grpc 08:59

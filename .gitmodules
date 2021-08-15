@@ -1,3 +1,7 @@
 [submodule "01-Introduction/Resources/run-aspnetcore-microservices"]
 	path = 01-Introduction/Resources/run-aspnetcore-microservices
 	url = https://github.com/aspnetrun/run-aspnetcore-microservices.git
+	
+[submodule "01-Introduction/Resources/run-aspnet-grpc"]
+	path = 01-Introduction/Resources/run-aspnet-grpc
+	url = https://github.com/aspnetrun/run-aspnet-grpc
