@@ -112,16 +112,16 @@ Links:
 
 - [x] Introduction 01:52
 - [x] gRPC usage of Microservices Communication 02:28
-- [ ] Using gRPC in Microservices Communication with .Net - Example Repository 01:49
-- [ ] Create Discount Grpc Microservices Project in Microservices Solution 13:56
-- [ ] Managing PostreSQL Database Operations in Discount Grpc 08:59
-- [ ] Developing discount.proto ProtoBuf file for Exposing Crud Services Discount Grpc 09:57
-- [ ] Generate Proto Service Class from Discount proto File in Discount Grpc 05:01
-- [ ] Developing DiscountService class to Implement Grpc Proto Service Methods 09:47
-- [ ] Implementing AutoMapper into DiscountService Class of Discount Grpc Microservice 05:20
-- [ ] Developing CRUD in DiscountService class to Implement CRUD Grpc Proto Service 05:35
+- [x] Using gRPC in Microservices Communication with .Net - Example Repository 01:49
+- [x] Create Discount Grpc Microservices Project in Microservices Solution 13:56
+- [x] Managing PostreSQL Database Operations in Discount Grpc 08:59
+- [x] Developing discount.proto ProtoBuf file for Exposing Crud Services Discount Grpc 09:57
+- [x] Generate Proto Service Class from Discount proto File in Discount Grpc 05:01
+- [x] Developing DiscountService class to Implement Grpc Proto Service Methods 09:47
+- [x] Implementing AutoMapper into DiscountService Class of Discount Grpc Microservice 05:20
+- [x] Developing CRUD in DiscountService class to Implement CRUD Grpc Proto Service 05:35
 
-### Developing CRUD in DiscountService class to Implement CRUD Grpc Proto Service
+### Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item
 
 - [ ] Introduction 01:45
 - [ ] Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item 1 08:49
