@@ -102,3 +102,13 @@ Menções do instrutor, duas pessoas que possuem ótimos repositórios/materiais
 |--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [Repositório GitHub: CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture)                       | [Twitter](https://twitter.com/gillcleeren/)                                                         |
 | [YouTube: Clean Architecture with ASP.NET Core 3.0 - Jason Taylor - NDC Sydney 2019](https://youtu.be/5OtUm1BLmG0) | [YouTube: Gill CLEEREN: Clean architecture with ASP.NET Core UCP2019](https://youtu.be/BxtHt7tsX-c) |
+
+### Create Asp.Net Web Api Project for Ordering.API Microservice
+
+Adicionado novo projeto "Ordering.API" em "src/Services/Ordering" com o comando:
+
+```bash
+dotnet new webapi --exclude-launch-settings --no-https --auth None -o Ordering.API
+```
+
+Configurado ".vscode/launch.json" para utilizar a porta 5004

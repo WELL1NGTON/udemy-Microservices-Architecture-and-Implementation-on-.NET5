@@ -80,5 +80,24 @@
                 "ASPNETCORE_URLS": "http://0.0.0.0:5003"
             }
         },
+        {
+            "name": "Ordering.API",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Services/Ordering/Ordering.API/bin/Debug/net5.0/Ordering.API.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/Services/Ordering/Ordering.API/bin/Debug/net5.0/",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger/"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://0.0.0.0:5004"
+            },
+        },
     ]
 }
