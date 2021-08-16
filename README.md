@@ -147,10 +147,10 @@ Links:
 - [x] Create Asp.Net Web Api Project for Ordering.API Microservice 04:21
 - [x] Create Clean Architecture Layers that Ordering Domain - Application and Infra 04:21
 - [x] Adding Project References Between Clean Architecture Layers 04:30
-- [ ] Developing Ordering.Domain Layer in Clean Architecture 06:20
-- [ ] Developing Ordering.Application Layer with CQRS Pattern Implementation in Clean 03:40
-- [ ] Developing Ordering.Application Layer - Application Contracts 15:52
-- [ ] CQRS Implementation with Mediator Design Pattern 03:15
+- [x] Developing Ordering.Domain Layer in Clean Architecture 06:20
+- [x] Developing Ordering.Application Layer with CQRS Pattern Implementation in Clean 03:40
+- [x] Developing Ordering.Application Layer - Application Contracts 15:52
+- [x] CQRS Implementation with Mediator Design Pattern 03:15
 - [ ] Developing Ordering.Application Layer- Application Features - GetOrdersListQuery 19:00
 - [ ] Developing Ordering.Application Layer - Application Command Features - Checkout 25:01
 - [ ] Developing Ordering.Application Layer- Application Command Features- UpdateOrder 14:52

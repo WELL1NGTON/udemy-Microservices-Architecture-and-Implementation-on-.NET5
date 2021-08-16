@@ -149,3 +149,13 @@ dotnet add ./Ordering.API/Ordering.API.csproj reference ./Ordering.Application/O
 # Adiciona uma referência do projeto "Infrastructure" no projeto "API"
 dotnet add ./Ordering.API/Ordering.API.csproj reference ./Ordering.Infrastructure/Ordering.Infrastructure.csproj
 ```
+
+### CQRS Implementation with Mediator Design Pattern
+
+![Mediator Design Pattern](images/mediator-design-pattern.png)
+
+![MediatT Nuget Package](images/mediatr-nuget-package.png)
+
+![MediatR Pipeline Behavior](images/mediatr-pipeline-behavior.png)
+
+![High Level "Writes-side" in CQRS](images/high-level-writes-side-in-cqrs.png)
