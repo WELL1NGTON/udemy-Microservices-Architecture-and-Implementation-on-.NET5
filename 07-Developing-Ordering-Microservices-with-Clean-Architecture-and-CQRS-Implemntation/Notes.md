@@ -131,3 +131,21 @@ dotnet sln add ./Services/Ordering/Ordering.Domain
 dotnet sln add ./Services/Ordering/Ordering.Application
 dotnet sln add ./Services/Ordering/Ordering.Infrastructure
 ```
+
+### Adding Project References Between Clean Architecture Layers
+
+Adicionadas as referências entre projetos com dotnet cli, executando os seguintes comandos na pasta "src/Services/Ordering":
+
+```bash
+# Adiciona uma referência do projeto "Domain" no projeto "Application"
+dotnet add ./Ordering.Application/Ordering.Application.csproj reference ./Ordering.Domain/Ordering.Domain.csproj
+
+# Adiciona uma referência do projeto "Application" no projeto "Infrastructure"
+dotnet add ./Ordering.Infrastructure/Ordering.Infrastructure.csproj reference ./Ordering.Application/Ordering.Application.csproj
+
+# Adiciona uma referência do projeto "Application" no projeto "API"
+dotnet add ./Ordering.API/Ordering.API.csproj reference ./Ordering.Application/Ordering.Application.csproj
+
+# Adiciona uma referência do projeto "Infrastructure" no projeto "API"
+dotnet add ./Ordering.API/Ordering.API.csproj reference ./Ordering.Infrastructure/Ordering.Infrastructure.csproj
+```
