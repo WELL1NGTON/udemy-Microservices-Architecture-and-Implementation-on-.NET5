@@ -112,3 +112,22 @@ dotnet new webapi --exclude-launch-settings --no-https --auth None -o Ordering.A
 ```
 
 Configurado ".vscode/launch.json" para utilizar a porta 5004
+
+### Create Clean Architecture Layers that Ordering Domain - Application and Infra
+
+Adicionado novos projetos "Ordering.Domain", "Ordering.Application" e "Ordering.Infrastructure" em "src/Services/Ordering" com os comandos:
+
+```bash
+dotnet new classlib -o Ordering.Domain
+dotnet new classlib -o Ordering.Application
+dotnet new classlib -o Ordering.Infrastructure
+```
+
+Obs.: Devido a estar utilizando vscode com net core cli, precisei adicionar os novos projetos todas a solution com os comandos executados na pasta "src":
+
+```bash
+dotnet sln add ./Services/Ordering/Ordering.API
+dotnet sln add ./Services/Ordering/Ordering.Domain
+dotnet sln add ./Services/Ordering/Ordering.Application
+dotnet sln add ./Services/Ordering/Ordering.Infrastructure
+```

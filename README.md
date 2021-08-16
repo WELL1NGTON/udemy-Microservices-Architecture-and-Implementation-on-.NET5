@@ -145,7 +145,7 @@ Links:
 - [x] Eventual Consisteny and Event Sourcing with CQRS Design Pattern 05:45
 - [x] Code Structure on CQRS and DDD Implementation in Ordering Microservices 06:07
 - [x] Create Asp.Net Web Api Project for Ordering.API Microservice 04:21
-- [ ] Create Clean Architecture Layers that Ordering Domain - Application and Infra 04:21
+- [x] Create Clean Architecture Layers that Ordering Domain - Application and Infra 04:21
 - [ ] Adding Project References Between Clean Architecture Layers 04:30
 - [ ] Developing Ordering.Domain Layer in Clean Architecture 06:20
 - [ ] Developing Ordering.Application Layer with CQRS Pattern Implementation in Clean 03:40
