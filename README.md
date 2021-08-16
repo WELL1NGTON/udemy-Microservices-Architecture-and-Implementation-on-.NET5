@@ -151,8 +151,8 @@ Links:
 - [x] Developing Ordering.Application Layer with CQRS Pattern Implementation in Clean 03:40
 - [x] Developing Ordering.Application Layer - Application Contracts 15:52
 - [x] CQRS Implementation with Mediator Design Pattern 03:15
-- [ ] Developing Ordering.Application Layer- Application Features - GetOrdersListQuery 19:00
-- [ ] Developing Ordering.Application Layer - Application Command Features - Checkout 25:01
+- [x] Developing Ordering.Application Layer- Application Features - GetOrdersListQuery 19:00
+- [x] Developing Ordering.Application Layer - Application Command Features - Checkout 25:01
 - [ ] Developing Ordering.Application Layer- Application Command Features- UpdateOrder 14:52
 - [ ] Developing Ordering.Application Layer- Application Command Features- DeleteOrder 13:42
 - [ ] Developing Ordering.Application Layer - Application Behaviours 17:33
