@@ -135,15 +135,15 @@ Links:
 ### [Developing Ordering Microservices with Clean Architecture and CQRS Implemntation](07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/Notes.md)
 
 - [x] Introduction 01:57
-- [ ] Analysis and Architecting of Ordering Microservices 06:35
-- [ ] Design Principles - SOLID 03:08
-- [ ] Design Principles - Dependency Inversion Principles (DIP) 02:40
-- [ ] Design Principles - Separation of Concerns (SoC) 01:52
-- [ ] Domain Driven Design - DDD 04:30
-- [ ] Clean Architecture with Domain Driven Design(DDD) 09:44
-- [ ] CQRS (Command Query Responsibility Segregation) Design Pattern 02:19
-- [ ] Eventual Consisteny and Event Sourcing with CQRS Design Pattern 05:45
-- [ ] Code Structure on CQRS and DDD Implementation in Ordering Microservices 06:07
+- [x] Analysis and Architecting of Ordering Microservices 06:35
+- [x] Design Principles - SOLID 03:08
+- [x] Design Principles - Dependency Inversion Principles (DIP) 02:40
+- [x] Design Principles - Separation of Concerns (SoC) 01:52
+- [x] Domain Driven Design - DDD 04:30
+- [x] Clean Architecture with Domain Driven Design(DDD) 09:44
+- [x] CQRS (Command Query Responsibility Segregation) Design Pattern 02:19
+- [x] Eventual Consisteny and Event Sourcing with CQRS Design Pattern 05:45
+- [x] Code Structure on CQRS and DDD Implementation in Ordering Microservices 06:07
 - [ ] Create Asp.Net Web Api Project for Ordering.API Microservice 04:21
 - [ ] Create Clean Architecture Layers that Ordering Domain - Application and Infra 04:21
 - [ ] Adding Project References Between Clean Architecture Layers 04:30

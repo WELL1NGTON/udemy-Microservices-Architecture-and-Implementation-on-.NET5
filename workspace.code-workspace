@@ -36,7 +36,7 @@
             "path": "06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/AspnetMicroservices"
         },
         {
-            "name": "06-AspnetMicroservices",
+            "name": "07-AspnetMicroservices",
             "path": "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices"
         }
     ],
