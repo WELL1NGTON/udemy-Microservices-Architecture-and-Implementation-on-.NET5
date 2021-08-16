@@ -125,16 +125,16 @@ Links:
 
 - [x] Introduction 01:45
 - [x] Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item 1 08:49
-- [ ] Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item 2 11:57
-- [ ] Register Discount Grpc Client and Discount Grpc Service into the Basket.API 07:54
-- [ ] Test and Run Discount Grpc and Basket Microservice 09:05
-- [ ] Containerize Discount Grpc Microservices with PostgreSQL using Docker Compose 06:27
-- [ ] Adding Grpc DiscountUrl Configuration in Basket.API image configuration on DC 04:24
-- [ ] Test on Docker environment - Basket.API integrate Discount.Grpc into DC 20:46
+- [x] Consuming Discount Grpc Service From Basket Microservice When Adding Cart Item 2 11:57
+- [x] Register Discount Grpc Client and Discount Grpc Service into the Basket.API 07:54
+- [x] Test and Run Discount Grpc and Basket Microservice 09:05
+- [x] Containerize Discount Grpc Microservices with PostgreSQL using Docker Compose 06:27
+- [x] Adding Grpc DiscountUrl Configuration in Basket.API image configuration on DC 04:24
+- [x] Test on Docker environment - Basket.API integrate Discount.Grpc into DC 20:46
 
-### Developing Ordering Microservices with Clean Architecture and CQRS Implemntation
+### [Developing Ordering Microservices with Clean Architecture and CQRS Implemntation](07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/Notes.md)
 
-- [ ] Introduction 01:57
+- [x] Introduction 01:57
 - [ ] Analysis and Architecting of Ordering Microservices 06:35
 - [ ] Design Principles - SOLID 03:08
 - [ ] Design Principles - Dependency Inversion Principles (DIP) 02:40

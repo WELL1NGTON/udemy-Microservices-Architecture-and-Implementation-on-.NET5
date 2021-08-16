@@ -1,0 +1,15 @@
+{
+    "cake": {
+        "enabled": false
+    },
+    "script": {
+        "enabled": false
+    },
+    "FileOptions": {
+        "ExcludeSearchPatterns": [
+            "bin/**/*",
+            "obj/**/*",
+            "node_modules/**/*"
+        ]
+    }
+}

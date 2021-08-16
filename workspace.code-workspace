@@ -34,14 +34,18 @@
         {
             "name": "06-AspnetMicroservices",
             "path": "06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/AspnetMicroservices"
+        },
+        {
+            "name": "06-AspnetMicroservices",
+            "path": "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices"
         }
     ],
     "settings": {
         "omnisharp.enableRoslynAnalyzers": true,
-        "omnisharp.defaultLaunchSolution": "06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/AspnetMicroservices/src/aspnetrun-microservices.sln",
+        "omnisharp.defaultLaunchSolution": "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices/src/aspnetrun-microservices.sln",
         "vssolution.solutionExplorerIcons": "mix",
         "vssolution.altSolutionFolders": [
-            "06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/AspnetMicroservices/src"
+            "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices/src"
         ]
     }
 }
