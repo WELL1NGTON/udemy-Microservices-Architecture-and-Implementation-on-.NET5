@@ -191,3 +191,11 @@ dotnet tool run dotnet-ef migrations add InitialCreate --startup-project '../Ord
 # Obs.: se a tool estivesse instalada globalmente eu poderia executar o seguinte comando (um pouco menor)
 # dotnet ef migrations add InitialCreate --startup-project '../Ordering.API/Ordering.API.csproj'
 ```
+
+### Adding SqlServer image into Docker-Compose File for Multi-Container Docker Env
+
+Adiciona a imagem [Microsoft SQL Server](https://hub.docker.com/_/microsoft-mssql-server) no docker-compose.
+
+### Test and Run Ordering Microservice
+
+Para visualizar o banco o instrutor utilizou o ServerExplorer do VisualStudio, porém como estou utilizando vscode, eu utilizei a extensão [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) com o driver [SQLTools Microsoft SQL Server/Azure](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mssql).

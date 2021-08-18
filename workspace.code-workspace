@@ -3,7 +3,9 @@
         "recommendations": [
             "ms-dotnettools.csharp",
             "doggy8088.netcore-extension-pack",
-            "fernandoescolar.vscode-solution-explorer"
+            "fernandoescolar.vscode-solution-explorer",
+            "mtxr.sqltools",
+            "mtxr.sqltools-driver-mssql"
         ]
     },
     "folders": [
@@ -46,6 +48,23 @@
         "vssolution.solutionExplorerIcons": "mix",
         "vssolution.altSolutionFolders": [
             "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices/src"
+        ],
+        "sqltools.connections": [
+            {
+                "mssqlOptions": {
+                    "appName": "SQLTools",
+                    "useUTC": true,
+                    "encrypt": true
+                },
+                "previewLimit": 50,
+                "server": "localhost",
+                "port": 1433,
+                "driver": "MSSQL",
+                "name": "localhost",
+                "username": "sa",
+                "password": "SwN12345678",
+                "database": "OrderDb"
+            }
         ]
     }
 }
