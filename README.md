@@ -153,16 +153,16 @@ Links:
 - [x] CQRS Implementation with Mediator Design Pattern 03:15
 - [x] Developing Ordering.Application Layer- Application Features - GetOrdersListQuery 19:00
 - [x] Developing Ordering.Application Layer - Application Command Features - Checkout 25:01
-- [ ] Developing Ordering.Application Layer- Application Command Features- UpdateOrder 14:52
-- [ ] Developing Ordering.Application Layer- Application Command Features- DeleteOrder 13:42
-- [ ] Developing Ordering.Application Layer - Application Behaviours 17:33
-- [ ] Developing Ordering.Application Layer - Application Service Registrations 14:44
-- [ ] Developing Ordering.API Presentation Layer in Clean Architecture 17:24
-- [ ] Developing Ordering.Infrastructure Layer in Clean Architecture - Persistence 12:43
-- [ ] Developing Ordering.Infrastructure Layer in Clean Architecture - Repositories 22:50
-- [ ] Developing Ordering.Infrastructure Layer - Infrastructure Service Registrations 10:48
-- [ ] Register Application and Infrastructure Layer Dependencies into Ordering.API 07:42
-- [ ] Adding EF Core Migrations for Code-First Approach in Ordering Microservices 06:21
+- [x] Developing Ordering.Application Layer- Application Command Features- UpdateOrder 14:52
+- [x] Developing Ordering.Application Layer- Application Command Features- DeleteOrder 13:42
+- [x] Developing Ordering.Application Layer - Application Behaviours 17:33
+- [x] Developing Ordering.Application Layer - Application Service Registrations 14:44
+- [x] Developing Ordering.API Presentation Layer in Clean Architecture 17:24
+- [x] Developing Ordering.Infrastructure Layer in Clean Architecture - Persistence 12:43
+- [x] Developing Ordering.Infrastructure Layer in Clean Architecture - Repositories 22:50
+- [x] Developing Ordering.Infrastructure Layer - Infrastructure Service Registrations 10:48
+- [x] Register Application and Infrastructure Layer Dependencies into Ordering.API 07:42
+- [x] Adding EF Core Migrations for Code-First Approach in Ordering Microservices 06:21
 - [ ] Applying EF.Core Migrations to Sql Server Automatically When Ordering.API 18:36
 - [ ] Adding SqlServer image into Docker-Compose File for Multi-Container Docker Env 09:07
 - [ ] Test and Run Ordering Microservice 07:22

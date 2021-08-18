@@ -159,3 +159,35 @@ dotnet add ./Ordering.API/Ordering.API.csproj reference ./Ordering.Infrastructur
 ![MediatR Pipeline Behavior](images/mediatr-pipeline-behavior.png)
 
 ![High Level "Writes-side" in CQRS](images/high-level-writes-side-in-cqrs.png)
+
+### Developing Ordering.Infrastructure Layer in Clean Architecture - Persistence
+
+Adicionados os pacotes nuget [SendGrid](https://www.nuget.org/packages/sendgrid/) e [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) em Ordering.Infrastructure:
+
+```bash
+dotnet add package SendGrid
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+```
+
+### Adding EF Core Migrations for Code-First Approach in Ordering Microservices
+
+Adicionados o pacote nuget [Microsoft.EntityFrameworkCore.Tools](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools) em Ordering.API:
+
+```bash
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+```
+
+O instrutor usou o comando  `Add-Migration InitialCreate` em Ordering.Infrastructure, porém como estou utilizando preciso adicionar a tool dotnet-ef (de preferência global, mas vou adicionar no projeto para ficar registrado em `.config`) e para isso vou executar na pasta `AspnetMicroservices` o comando:
+
+```bash
+dotnet tool install dotnet-ef
+```
+
+E agora para criar a migration vou executar em `AspnetMicroservices/src/Services/Ordering/Ordering.Infrastructure`:
+
+```bash
+dotnet tool run dotnet-ef migrations add InitialCreate --startup-project '../Ordering.API/Ordering.API.csproj'
+
+# Obs.: se a tool estivesse instalada globalmente eu poderia executar o seguinte comando (um pouco menor)
+# dotnet ef migrations add InitialCreate --startup-project '../Ordering.API/Ordering.API.csproj'
+```
