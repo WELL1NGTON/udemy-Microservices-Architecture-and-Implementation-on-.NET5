@@ -170,7 +170,7 @@ Links:
 - [x] Containerize Ordering Microservices with SqlServer using Docker Compose 10:49
 - [x] Test on Docker environment - Ordering.API and SqlServer into Docker-Compose File 13:01
 
-### Microservices Async Communication w/ RabbitMQ & MassTransit for Checkout Order
+### [Microservices Async Communication w/ RabbitMQ & MassTransit for Checkout Order](08-Microservices-Async-Communication-with-RabbitMQ-and-MassTransit-for-Checkout-Order/Notes.md)
 
 - [ ] Introduction 03:59
 - [ ] Microservices Communication Types Request-Driven or Event-Driven Architecture 03:31

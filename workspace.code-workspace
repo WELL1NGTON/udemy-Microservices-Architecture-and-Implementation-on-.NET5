@@ -40,14 +40,18 @@
         {
             "name": "07-AspnetMicroservices",
             "path": "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices"
+        },
+        {
+            "name": "08-AspnetMicroservices",
+            "path": "08-Microservices-Async-Communication-with-RabbitMQ-and-MassTransit-for-Checkout-Order/AspnetMicroservices"
         }
     ],
     "settings": {
         "omnisharp.enableRoslynAnalyzers": true,
-        "omnisharp.defaultLaunchSolution": "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices/src/aspnetrun-microservices.sln",
+        "omnisharp.defaultLaunchSolution": "08-Microservices-Async-Communication-with-RabbitMQ-and-MassTransit-for-Checkout-Order/AspnetMicroservices/src/aspnetrun-microservices.sln",
         "vssolution.solutionExplorerIcons": "mix",
         "vssolution.altSolutionFolders": [
-            "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices/src"
+            "08-Microservices-Async-Communication-with-RabbitMQ-and-MassTransit-for-Checkout-Order/AspnetMicroservices/src"
         ],
         "sqltools.connections": [
             {
