@@ -14,6 +14,11 @@ namespace Ordering.Infrastructure.Repositories
     public class RepositoryBase<T> : IAsyncRepository<T>
         where T : EntityBase
     {
+        // observação pessoal: eu colocaria o Field como private e aqui seria um bom uso para uma property "internal" (visível apenas para o assembly
+        // Ordering.Infrastructure.Repositories), mas vou deixar o SuppressMessage para ficar como exemplo de uso desse attribute também:
+        //
+        // private readonly OrderContext _dbContext;
+        // internal OrderContext DbContext { get => _dbContext; }
         [SuppressMessage("Usage", "SA1401: Fields Must Be Private", Justification = "Curso ¯\\_(ツ)_/¯")]
         protected readonly OrderContext _dbContext;
 
