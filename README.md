@@ -165,10 +165,10 @@ Links:
 - [x] Adding EF Core Migrations for Code-First Approach in Ordering Microservices 06:21
 - [x] Applying EF.Core Migrations to Sql Server Automatically When Ordering.API 18:36
 - [x] Adding SqlServer image into Docker-Compose File for Multi-Container Docker Env 09:07
-- [ ] Test and Run Ordering Microservice 07:22
-- [ ] Test Ordering Microservices CQRS and Clean Architecture Flows 19:36
-- [ ] Containerize Ordering Microservices with SqlServer using Docker Compose 10:49
-- [ ] Test on Docker environment - Ordering.API and SqlServer into Docker-Compose File 13:01
+- [x] Test and Run Ordering Microservice 07:22
+- [x] Test Ordering Microservices CQRS and Clean Architecture Flows 19:36
+- [x] Containerize Ordering Microservices with SqlServer using Docker Compose 10:49
+- [x] Test on Docker environment - Ordering.API and SqlServer into Docker-Compose File 13:01
 
 ### Microservices Async Communication w/ RabbitMQ & MassTransit for Checkout Order
 

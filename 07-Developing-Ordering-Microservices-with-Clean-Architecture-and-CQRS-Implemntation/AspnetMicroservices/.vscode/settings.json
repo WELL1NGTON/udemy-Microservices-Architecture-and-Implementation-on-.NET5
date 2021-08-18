@@ -15,7 +15,5 @@
         "**/node_modules/*/**": true,
         "**/bin/*": true,
         "**/obj/*": true
-    },
-    "vssolution.solutionExplorerIcons": "mix",
-    "sqltools.connections": []
+    }
 }

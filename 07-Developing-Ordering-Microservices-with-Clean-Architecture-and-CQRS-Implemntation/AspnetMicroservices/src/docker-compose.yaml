@@ -3,10 +3,10 @@ version: '3.9'
 services:
   catalogdb:
     image: mongo
-  
+
   basketdb:
     image: redis:alpine
-  
+
   discountdb:
     image: postgres:alpine
 
@@ -42,6 +42,12 @@ services:
     build:
       context: .
       dockerfile: Services/Discount/Discount.Grpc/Dockerfile
+
+  ordering.api:
+    image: ${DOCKER_REGISTRY-}orderingapi
+    build:
+      context: .
+      dockerfile: Services/Ordering/Ordering.API/Dockerfile
 
 volumes:
   mongo_data:
