@@ -29,3 +29,7 @@ Implementar comunição assíncrona com RabbitMQ e MassTransit para "Checkout Or
 ![RabbitMQ Exchange Types](images/rabbitmq-exchange-types.png)
 
 ![RabbitMQ Topic & Fanout Exchange Types](images/rabbitmq-topic-and-fanout-exchange-types.png)
+
+### Adding RabbitMQ image into Docker-Compose File for Multi-Container Docker Env
+
+Adiciona a imagem oficial do [RabbitMQ](https://hub.docker.com/_/rabbitmq) no docker-compose.

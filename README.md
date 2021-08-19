@@ -176,7 +176,7 @@ Links:
 - [x] Microservices Communication Types Request-Driven or Event-Driven Architecture 03:31
 - [x] What is RabbitMQ, Main Components of RabbitMQ 03:49
 - [x] RabbitMQ Exchange Types 04:18
-- [ ] Adding RabbitMQ image into Docker-Compose File for Multi-Container Docker Env 09:20
+- [x] Adding RabbitMQ image into Docker-Compose File for Multi-Container Docker Env 09:20
 - [ ] Analysis & Design BuildingBlocks EventBus.Messages Class Library Project 04:20
 - [ ] Developing BuildingBlocks EventBus.Messages Class Library 10:56
 - [ ] Produce RabbitMQ Event From Basket Microservice Publisher of BasketCheckoutEvent 17:41
