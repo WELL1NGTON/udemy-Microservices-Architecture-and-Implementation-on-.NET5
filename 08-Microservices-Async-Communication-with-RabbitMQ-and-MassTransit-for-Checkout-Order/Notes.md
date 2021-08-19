@@ -62,3 +62,19 @@ cd ..
 # Adicionado o projeto csproj no arquivo de solution
 dotnet sln add ./BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj
 ```
+
+### Produce RabbitMQ Event From Basket Microservice Publisher of BasketCheckoutEvent
+
+Adicionada referência do projeto EventBus.Messages no projeto Basket.API executando o seguinte comando dentro de src/Services/Basket/Basket.API¨
+
+```bash
+dotnet add reference ../../../BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj
+```
+
+E depois adicionados os pacotes necessários para o EventBus em Basket.API:
+
+```bash
+dotnet add package MassTransit
+dotnet add package MassTransit.RabbitMQ
+dotnet add package MassTransit.AspNetCore
+```
