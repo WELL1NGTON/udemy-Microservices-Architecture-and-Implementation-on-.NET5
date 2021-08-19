@@ -177,8 +177,8 @@ Links:
 - [x] What is RabbitMQ, Main Components of RabbitMQ 03:49
 - [x] RabbitMQ Exchange Types 04:18
 - [x] Adding RabbitMQ image into Docker-Compose File for Multi-Container Docker Env 09:20
-- [ ] Analysis & Design BuildingBlocks EventBus.Messages Class Library Project 04:20
-- [ ] Developing BuildingBlocks EventBus.Messages Class Library 10:56
+- [x] Analysis & Design BuildingBlocks EventBus.Messages Class Library Project 04:20
+- [x] Developing BuildingBlocks EventBus.Messages Class Library 10:56
 - [ ] Produce RabbitMQ Event From Basket Microservice Publisher of BasketCheckoutEvent 17:41
 - [ ] Publish BasketCheckout Queue Message Event in Basket.API Controller Class 20:58
 - [ ] Publish BasketCheckout Queue Message Event in Basket.API Controller Class Part 2 07:42

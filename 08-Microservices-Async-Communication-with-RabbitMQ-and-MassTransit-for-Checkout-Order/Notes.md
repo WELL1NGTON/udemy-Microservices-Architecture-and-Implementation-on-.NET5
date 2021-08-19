@@ -33,3 +33,32 @@ Implementar comunição assíncrona com RabbitMQ e MassTransit para "Checkout Or
 ### Adding RabbitMQ image into Docker-Compose File for Multi-Container Docker Env
 
 Adiciona a imagem oficial do [RabbitMQ](https://hub.docker.com/_/rabbitmq) no docker-compose.
+
+### Analysis & Design BuildingBlocks EventBus.Messages Class Library Project
+
+![Analysis & Design RabbitMQ & BuildingBlocks EventBus.Messages](images/analysis-and-design-rabbitmq-and-buildinblocks-eventbus-messages.png)
+
+![Publisher/Subscriber of BasketCheckout Event](images/publisher-subscriber-of-basketcheckout-event.png)
+
+#### RabbitMQ Nuget Packages
+
+- [MassTransit](https://www.nuget.org/packages/MassTransit/)
+- [MassTransit.RabbitMQ](https://www.nuget.org/packages/MassTransit.RabbitMQ/)
+- [MassTransit.AspNetCore](https://www.nuget.org/packages/MassTransit.AspNetCore/)
+- REST API principles, CRUD operations
+- Add Project Reference - EventBus.Messages
+
+### Developing BuildingBlocks EventBus.Messages Class Library
+
+Adicionado novo projeto "EventBus.Messages" em "src/BuildingBlocks" com os comandos:
+
+```bash
+# Criando um projeto classlib em src/BuildingBlocks/EventBus.Messages
+dotnet new classlib -o EventBus.Messages
+
+# Voltando para a pasta que contém a solution "aspnetrun-microservices.sln" (pasta 'src')
+cd ..
+
+# Adicionado o projeto csproj no arquivo de solution
+dotnet sln add ./BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj
+```
