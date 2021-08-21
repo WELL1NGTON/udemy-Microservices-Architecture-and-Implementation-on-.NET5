@@ -78,3 +78,12 @@ dotnet add package MassTransit
 dotnet add package MassTransit.RabbitMQ
 dotnet add package MassTransit.AspNetCore
 ```
+
+### Publish BasketCheckout Queue Message Event in Basket.API Controller Class
+
+Adicionado [AutoMapper.Extensions.Microsoft.DependencyInjection](https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection/) e [Microsoft.VisualStudio.Azure.Containers.Tools.Targets](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets) em Basket.API
+
+```bash
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+dotnet add package Microsoft.VisualStudio.Azure.Containers.Tools.Targets
+```

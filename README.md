@@ -180,7 +180,7 @@ Links:
 - [x] Analysis & Design BuildingBlocks EventBus.Messages Class Library Project 04:20
 - [x] Developing BuildingBlocks EventBus.Messages Class Library 10:56
 - [x] Produce RabbitMQ Event From Basket Microservice Publisher of BasketCheckoutEvent 17:41
-- [ ] Publish BasketCheckout Queue Message Event in Basket.API Controller Class 20:58
+- [x] Publish BasketCheckout Queue Message Event in Basket.API Controller Class 20:58
 - [ ] Publish BasketCheckout Queue Message Event in Basket.API Controller Class Part 2 07:42
 - [ ] Test BasketCheckout Event in Basket.API Microservices 11:51
 - [ ] Consume RabbitMQ Event From Ordering Microservice Subscriber of BasketCheckout 21:48
