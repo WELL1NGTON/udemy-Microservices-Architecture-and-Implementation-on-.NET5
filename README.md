@@ -181,11 +181,11 @@ Links:
 - [x] Developing BuildingBlocks EventBus.Messages Class Library 10:56
 - [x] Produce RabbitMQ Event From Basket Microservice Publisher of BasketCheckoutEvent 17:41
 - [x] Publish BasketCheckout Queue Message Event in Basket.API Controller Class 20:58
-- [ ] Publish BasketCheckout Queue Message Event in Basket.API Controller Class Part 2 07:42
-- [ ] Test BasketCheckout Event in Basket.API Microservices 11:51
-- [ ] Consume RabbitMQ Event From Ordering Microservice Subscriber of BasketCheckout 21:48
-- [ ] Subscribe BasketCheckout Queue Message Event in Ordering BasketCheckoutConsumer 18:09
-- [ ] Test BasketCheckout Event in Basket.API and Ordering.API Microservices 17:17
+- [x] Publish BasketCheckout Queue Message Event in Basket.API Controller Class Part 2 07:42
+- [x] Test BasketCheckout Event in Basket.API Microservices 11:51
+- [x] Consume RabbitMQ Event From Ordering Microservice Subscriber of BasketCheckout 21:48
+- [x] Subscribe BasketCheckout Queue Message Event in Ordering BasketCheckoutConsumer 18:09
+- [x] Test BasketCheckout Event in Basket.API and Ordering.API Microservices 17:17
 - [ ] Test MassTransit Retry Mecanism of RabbitMQ Connection Problems 07:57
 - [ ] Containerize Basket and Ordering Microservices w/ RabbitMQ using Docker Compose 18:16
 - [ ] Test on Docker environment - Basket and Ordering with RabbitMQ in Docker-Compose 13:04

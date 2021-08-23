@@ -65,7 +65,7 @@ dotnet sln add ./BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj
 
 ### Produce RabbitMQ Event From Basket Microservice Publisher of BasketCheckoutEvent
 
-Adicionada referência do projeto EventBus.Messages no projeto Basket.API executando o seguinte comando dentro de src/Services/Basket/Basket.API¨
+Adicionada referência do projeto EventBus.Messages no projeto Basket.API executando o seguinte comando dentro de src/Services/Basket/Basket.API:
 
 ```bash
 dotnet add reference ../../../BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj
@@ -86,4 +86,20 @@ Adicionado [AutoMapper.Extensions.Microsoft.DependencyInjection](https://www.nug
 ```bash
 dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
 dotnet add package Microsoft.VisualStudio.Azure.Containers.Tools.Targets
+```
+
+### Consume RabbitMQ Event From Ordering Microservice Subscriber of BasketCheckout
+
+Adicionada referência do projeto EventBus.Messages no projeto Ordering.API executando o seguinte comando dentro de src/Services/Ordering/Ordering.API:
+
+```bash
+dotnet add reference ../../../BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj
+```
+
+E depois adicionados os pacotes necessários para o EventBus em Ordering.API:
+
+```bash
+dotnet add package MassTransit \
+&& dotnet add package MassTransit.RabbitMQ \
+&& dotnet add package MassTransit.AspNetCore
 ```
