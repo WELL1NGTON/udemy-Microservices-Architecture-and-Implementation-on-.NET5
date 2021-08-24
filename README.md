@@ -186,13 +186,13 @@ Links:
 - [x] Consume RabbitMQ Event From Ordering Microservice Subscriber of BasketCheckout 21:48
 - [x] Subscribe BasketCheckout Queue Message Event in Ordering BasketCheckoutConsumer 18:09
 - [x] Test BasketCheckout Event in Basket.API and Ordering.API Microservices 17:17
-- [ ] Test MassTransit Retry Mecanism of RabbitMQ Connection Problems 07:57
-- [ ] Containerize Basket and Ordering Microservices w/ RabbitMQ using Docker Compose 18:16
-- [ ] Test on Docker environment - Basket and Ordering with RabbitMQ in Docker-Compose 13:04
+- [x] Test MassTransit Retry Mecanism of RabbitMQ Connection Problems 07:57
+- [x] Containerize Basket and Ordering Microservices w/ RabbitMQ using Docker Compose 18:16
+- [x] Test on Docker environment - Basket and Ordering with RabbitMQ in Docker-Compose 13:04
 
-### Building API Gateways with Ocelot and Applying Gateway Routing Pattern
+### [Building API Gateways with Ocelot and Applying Gateway Routing Pattern](09-Building-API-Gateways-with-Ocelot-and-Applying-Gateway-Routing-Pattern/Notes.md)
 
-- [ ] Introduction 01:39
+- [x] Introduction 01:39
 - [ ] Gateway Routing pattern 01:26
 - [ ] API Gateway Pattern 02:34
 - [ ] BFF Backend for Frontend Pattern 02:32
