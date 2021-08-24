@@ -193,12 +193,12 @@ Links:
 ### [Building API Gateways with Ocelot and Applying Gateway Routing Pattern](09-Building-API-Gateways-with-Ocelot-and-Applying-Gateway-Routing-Pattern/Notes.md)
 
 - [x] Introduction 01:39
-- [ ] Gateway Routing pattern 01:26
-- [ ] API Gateway Pattern 02:34
-- [ ] BFF Backend for Frontend Pattern 02:32
-- [ ] Main features in the API Gateway pattern 02:01
-- [ ] Ocelot API Gateway 02:32
-- [ ] Authentication and authorization in Ocelot API Gateway 02:13
+- [x] Gateway Routing pattern 01:26
+- [x] API Gateway Pattern 02:34
+- [x] BFF Backend for Frontend Pattern 02:32
+- [x] Main features in the API Gateway pattern 02:01
+- [x] Ocelot API Gateway 02:32
+- [x] Authentication and authorization in Ocelot API Gateway 02:13
 - [ ] Analysis & Design of API Gateway Microservices 02:26
 - [ ] Developing Ocelot Api Gateway Microservices with Adapting Ocelot Nuget Package 12:01
 - [ ] Adding ocelot.json Configuration File For Routing Microservices in Ocelot Api Gw 33:00
