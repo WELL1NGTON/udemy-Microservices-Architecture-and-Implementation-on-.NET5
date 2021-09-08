@@ -63,3 +63,28 @@ Implementar Api Gateways com Ocelot aplicando Gateway Routing Pattern.
 
 - [Ocelot](https://www.nuget.org/packages/Ocelot/)
 - [Microsoft.VisualStudio.Azure.Containers.Tools.Targets](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets)
+
+### Developing Ocelot Api Gateway Microservices with Adapting Ocelot Nuget Package
+
+Adicionado novo projeto "OcelotApiGw" em "src/ApiGateways" com os comandos:
+
+```bash
+cd src
+mkdir ApiGateways
+cd ApiGateways
+dotnet new web --no-https --exclude-launch-settings -o OcelotApiGw
+```
+
+Adicionada referência do novo projeto ao sln executando o comando a seguir na pasta "src":
+
+```bash
+cd src
+dotnet sln add ./ApiGateways/OcelotApiGw/OcelotApiGw.csproj
+```
+
+E adicionado pacot Nuget Ocelot:
+
+```bash
+cd src/ApiGateways/OcelotApiGw
+dotnet add package Ocelot
+```

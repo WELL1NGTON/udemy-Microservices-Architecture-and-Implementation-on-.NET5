@@ -7,6 +7,8 @@ Curso Udemy: [Microservices Architecture and Implementation on .NET 5](https://w
 Segui esse curso utilizando o [Visual Studio Code](https://code.visualstudio.com/) e utilizei a função de workspaces dele para separar os códigos por seção. Eu preferi fazer assim pois consigo ter uma melhor noção do progresso e caso exista alguma refatoração em uma seção posterior do curso, eu consigo ter uma visão melhor de como era um código até uma parte do curso e como ficou depois sem ter que ficar pulando entre commits.  
 As configurações dos workspaces estão no arquivo [workspace.code-workspace](./workspace.code-workspace).
 
+Obs.: Como estou seguindo curso onde o projeto base é [aspnetrun/run-aspnetcore-microservices](https://github.com/aspnetrun/run-aspnetcore-microservices/tree/d3e543733657580aaabb07ded269902a76144143), eu selecionei a mesma licensa para esse repositório.
+
 ## Instrutor
 
 ### Mehmet Özkaya - Software Architect
@@ -199,8 +201,8 @@ Links:
 - [x] Main features in the API Gateway pattern 02:01
 - [x] Ocelot API Gateway 02:32
 - [x] Authentication and authorization in Ocelot API Gateway 02:13
-- [ ] Analysis & Design of API Gateway Microservices 02:26
-- [ ] Developing Ocelot Api Gateway Microservices with Adapting Ocelot Nuget Package 12:01
+- [x] Analysis & Design of API Gateway Microservices 02:26
+- [x] Developing Ocelot Api Gateway Microservices with Adapting Ocelot Nuget Package 12:01
 - [ ] Adding ocelot.json Configuration File For Routing Microservices in Ocelot Api Gw 33:00
 - [ ] Test Ocelot Api Gateway With Routing Internal Microservices 15:40
 - [ ] Rate Limiting in Ocelot Api Gateway with Configuring Ocelot.json File 09:54
