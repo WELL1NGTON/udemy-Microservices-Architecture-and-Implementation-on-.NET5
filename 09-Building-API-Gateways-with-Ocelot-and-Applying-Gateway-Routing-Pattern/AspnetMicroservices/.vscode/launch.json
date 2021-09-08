@@ -25,7 +25,7 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "http://0.0.0.0:5000"
+                "ASPNETCORE_URLS": "http://localhost:5000"
             },
         },
         {
@@ -45,7 +45,7 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "http://0.0.0.0:5001"
+                "ASPNETCORE_URLS": "http://localhost:5001"
             },
             "justMyCode": false,
         },
@@ -65,7 +65,7 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "http://0.0.0.0:5002"
+                "ASPNETCORE_URLS": "http://localhost:5002"
             },
         },
         {
@@ -79,7 +79,7 @@
             "stopAtEntry": false,
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "http://0.0.0.0:5003"
+                "ASPNETCORE_URLS": "http://localhost:5003"
             }
         },
         {
@@ -98,7 +98,26 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "http://0.0.0.0:5004"
+                "ASPNETCORE_URLS": "http://localhost:5004"
+            }
+        },
+        {
+            "name": "OcelotApiGw",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/ApiGateways/OcelotApiGw/bin/Debug/net5.0/OcelotApiGw.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/ApiGateways/OcelotApiGw",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Local",
+                "ASPNETCORE_URLS": "http://localhost:5010"
             }
         },
         {
