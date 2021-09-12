@@ -7,7 +7,7 @@ Curso Udemy: [Microservices Architecture and Implementation on .NET 5](https://w
 Segui esse curso utilizando o [Visual Studio Code](https://code.visualstudio.com/) e utilizei a função de workspaces dele para separar os códigos por seção. Eu preferi fazer assim pois consigo ter uma melhor noção do progresso e caso exista alguma refatoração em uma seção posterior do curso, eu consigo ter uma visão melhor de como era um código até uma parte do curso e como ficou depois sem ter que ficar pulando entre commits.  
 As configurações dos workspaces estão no arquivo [workspace.code-workspace](./workspace.code-workspace).
 
-Obs.: Como estou seguindo curso onde o projeto base é [aspnetrun/run-aspnetcore-microservices](https://github.com/aspnetrun/run-aspnetcore-microservices/tree/d3e543733657580aaabb07ded269902a76144143), eu selecionei a mesma licensa para esse repositório.
+Obs.: Como estou seguindo curso onde o projeto base é [aspnetrun/run-aspnetcore-microservices](https://github.com/aspnetrun/run-aspnetcore-microservices), eu selecionei a mesma [licensa](https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/LICENSE) para esse repositório.
 
 ## Instrutor
 
