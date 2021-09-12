@@ -1,0 +1,16 @@
+{
+  "//": {
+    "comments-rollForward": [
+      "version=5.0.100; rollForward=disabled;       validVersions=5.0.100",
+      "version=5.0.100; rollForward=latestPatch;    validVersions=5.0.1xx (5.0.100 <= version < 5.0.200)",
+      "version=5.0.100; rollForward=latestFeature;  validVersions=5.0.xxx (5.0.100 <= version < 5.1.000)",
+      "version=5.0.100; rollForward=latestMinor;    validVersions=5.x.xxx (5.0.100 <= version < 6.0.000)",
+      "version=5.0.100; rollForward=latestMajor;    validVersions=x.x.xxx (5.0.100 <= version)"
+    ]
+  },
+  "sdk": {
+    "version": "5.0.100",
+    "rollForward": "latestMinor",
+    "allowPrerelease": false
+  }
+}

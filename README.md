@@ -211,7 +211,7 @@ Links:
 - [x] Containerize Ocelot Api Gateway Microservices using Docker Compose 06:02
 - [x] Test on Docker environment - Ocelot API Gateway into Docker-Compose File 12:51
 
-### Api Gateway - Requests Aggregation Pattern in Shopping.Aggregator
+### [Api Gateway - Requests Aggregation Pattern in Shopping.Aggregator](10-Api-Gateway-Requests-Aggregation-Pattern-in-Shopping.Aggregator/Notes.md)
 
 - [ ] Introduction 01:51
 - [ ] Gateway Aggregation pattern 03:18
