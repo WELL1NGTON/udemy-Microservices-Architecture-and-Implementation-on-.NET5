@@ -207,9 +207,9 @@ Links:
 - [x] Test Ocelot Api Gateway With Routing Internal Microservices 15:40
 - [x] Rate Limiting in Ocelot Api Gateway with Configuring Ocelot.json File 09:54
 - [x] Response Caching in Ocelot Api Gateway with Configuring Ocelot.json File 06:35
-- [ ] Configure Ocelot Json For Docker Development Environment in Ocelot Api Gateway 10:58
-- [ ] Containerize Ocelot Api Gateway Microservices using Docker Compose 06:02
-- [ ] Test on Docker environment - Ocelot API Gateway into Docker-Compose File 12:51
+- [x] Configure Ocelot Json For Docker Development Environment in Ocelot Api Gateway 10:58
+- [x] Containerize Ocelot Api Gateway Microservices using Docker Compose 06:02
+- [x] Test on Docker environment - Ocelot API Gateway into Docker-Compose File 12:51
 
 ### Api Gateway - Requests Aggregation Pattern in Shopping.Aggregator
 
