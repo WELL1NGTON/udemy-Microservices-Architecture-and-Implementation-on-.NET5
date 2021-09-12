@@ -82,9 +82,22 @@ cd src
 dotnet sln add ./ApiGateways/OcelotApiGw/OcelotApiGw.csproj
 ```
 
-E adicionado pacot Nuget Ocelot:
+E adicionado pacot Nuget [Ocelot](https://www.nuget.org/packages/Ocelot/):
 
 ```bash
 cd src/ApiGateways/OcelotApiGw
 dotnet add package Ocelot
 ```
+
+### Response Caching in Ocelot Api Gateway with Configuring Ocelot.json File
+
+E adicionado pacot Nuget [Ocelot.Cache.CacheManager](https://www.nuget.org/packages/Ocelot.Cache.CacheManager/):
+
+```bash
+cd src/ApiGateways/OcelotApiGw
+dotnet add package Ocelot.Cache.CacheManager
+```
+
+### Links
+
+- [Documentação Ocelot](https://ocelot.readthedocs.io/en/latest/introduction/gettingstarted.html)

@@ -203,10 +203,10 @@ Links:
 - [x] Authentication and authorization in Ocelot API Gateway 02:13
 - [x] Analysis & Design of API Gateway Microservices 02:26
 - [x] Developing Ocelot Api Gateway Microservices with Adapting Ocelot Nuget Package 12:01
-- [ ] Adding ocelot.json Configuration File For Routing Microservices in Ocelot Api Gw 33:00
-- [ ] Test Ocelot Api Gateway With Routing Internal Microservices 15:40
-- [ ] Rate Limiting in Ocelot Api Gateway with Configuring Ocelot.json File 09:54
-- [ ] Response Caching in Ocelot Api Gateway with Configuring Ocelot.json File 06:35
+- [x] Adding ocelot.json Configuration File For Routing Microservices in Ocelot Api Gw 33:00
+- [x] Test Ocelot Api Gateway With Routing Internal Microservices 15:40
+- [x] Rate Limiting in Ocelot Api Gateway with Configuring Ocelot.json File 09:54
+- [x] Response Caching in Ocelot Api Gateway with Configuring Ocelot.json File 06:35
 - [ ] Configure Ocelot Json For Docker Development Environment in Ocelot Api Gateway 10:58
 - [ ] Containerize Ocelot Api Gateway Microservices using Docker Compose 06:02
 - [ ] Test on Docker environment - Ocelot API Gateway into Docker-Compose File 12:51
