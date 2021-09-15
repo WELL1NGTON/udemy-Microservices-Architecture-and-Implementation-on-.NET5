@@ -21,3 +21,17 @@ Utilizar o Aggragation Pattern para facilitar a comunicação com as apis (um re
 ![Gateway Aggregation Pattern](images/gateway-aggregation-pattern2.png)
 
 ![Architecture of Shopping.Aggregator](images/architecture-of-shoppingaggregator.png)
+
+### Developing Shopping.Aggregator Microservices
+
+Adicionado o novo projeto Shopping.Aggregator em ApiGateways:
+
+```bash
+# Criando o projeto
+cd src/ApiGateways
+dotnet new webapi -o Shopping.Aggregator --no-https --exclude-launch-settings
+
+# Adicionando a solução
+cd ..
+dotnet sln add ApiGateways/Shopping.Aggregator/Shopping.Aggregator.csproj
+```

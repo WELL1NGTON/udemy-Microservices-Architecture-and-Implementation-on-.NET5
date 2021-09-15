@@ -213,10 +213,10 @@ Links:
 
 ### [Api Gateway - Requests Aggregation Pattern in Shopping.Aggregator](10-Api-Gateway-Requests-Aggregation-Pattern-in-Shopping.Aggregator/Notes.md)
 
-- [ ] Introduction 01:51
-- [ ] Gateway Aggregation pattern 03:18
-- [ ] Analysis & Design of Shopping.Aggregator Microservices - Gateway Aggregation 03:22
-- [ ] Developing Shopping.Aggregator Microservices 05:01
+- [x] Introduction 01:51
+- [x] Gateway Aggregation pattern 03:18
+- [x] Analysis & Design of Shopping.Aggregator Microservices - Gateway Aggregation 03:22
+- [x] Developing Shopping.Aggregator Microservices 05:01
 - [ ] Developing Dto Model Class for Api Aggreation Operations 11:13
 - [ ] Developing Service Classes for Consuming Internal Microservices in Shopping.Aggr 21:31
 - [ ] Developing Service Classes Consuming Internal Microservices in Shopping.Aggr-2 30:02
