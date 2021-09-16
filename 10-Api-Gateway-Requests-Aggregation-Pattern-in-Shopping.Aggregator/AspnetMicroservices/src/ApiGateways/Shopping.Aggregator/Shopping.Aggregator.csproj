@@ -3,9 +3,23 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <NoDefaultLaunchSettingsFile>True</NoDefaultLaunchSettingsFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+    <CodeAnalysisRuleSet>..\..\Shared\StyleCop.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
   <ItemGroup>
+    <AdditionalFiles Include="..\..\Shared\stylecop.json">
+      <Link>stylecop.json</Link>
+    </AdditionalFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 

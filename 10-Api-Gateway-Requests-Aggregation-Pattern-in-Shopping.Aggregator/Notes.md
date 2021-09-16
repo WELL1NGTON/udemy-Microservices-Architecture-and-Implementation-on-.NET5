@@ -35,3 +35,6 @@ dotnet new webapi -o Shopping.Aggregator --no-https --exclude-launch-settings
 cd ..
 dotnet sln add ApiGateways/Shopping.Aggregator/Shopping.Aggregator.csproj
 ```
+
+### Developing Dto Model Class for Api Aggreation Operations
+

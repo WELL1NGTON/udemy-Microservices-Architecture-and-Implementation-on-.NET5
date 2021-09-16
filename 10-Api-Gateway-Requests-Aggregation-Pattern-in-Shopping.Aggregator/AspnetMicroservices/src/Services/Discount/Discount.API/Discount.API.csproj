@@ -7,8 +7,14 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..</DockerfileContext>
     <UserSecretsId>7d1f249a-4681-4fc0-b733-6b28c94e57c6</UserSecretsId>
-    <CodeAnalysisRuleSet>..\..\..\StyleCop.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\..\..\Shared\StyleCop.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\..\..\Shared\stylecop.json">
+      <Link>stylecop.json</Link>
+    </AdditionalFiles>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.90" />

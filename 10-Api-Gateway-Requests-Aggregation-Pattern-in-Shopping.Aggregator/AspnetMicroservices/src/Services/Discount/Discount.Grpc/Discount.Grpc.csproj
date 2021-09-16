@@ -6,8 +6,14 @@
     <NoDefaultLaunchSettingsFile>True</NoDefaultLaunchSettingsFile>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..</DockerfileContext>
-    <CodeAnalysisRuleSet>..\..\..\StyleCop.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\..\..\Shared\StyleCop.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\..\..\Shared\stylecop.json">
+      <Link>stylecop.json</Link>
+    </AdditionalFiles>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
