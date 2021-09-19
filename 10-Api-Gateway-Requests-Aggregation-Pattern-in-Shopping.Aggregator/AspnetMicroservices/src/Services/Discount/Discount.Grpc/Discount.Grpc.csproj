@@ -19,8 +19,8 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Dapper" Version="2.0.90" />
     <PackageReference Include="Grpc.AspNetCore" Version="2.39.0" />
-    <PackageReference Include="Npgsql" Version="5.0.7" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+    <PackageReference Include="Npgsql" Version="5.0.10" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.354">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>

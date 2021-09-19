@@ -22,7 +22,7 @@
     <PackageReference Include="MassTransit" Version="7.2.2" />
     <PackageReference Include="MassTransit.AspNetCore" Version="7.2.2" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="7.2.2" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.9">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -30,7 +30,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1" />
   </ItemGroup>
 
   <ItemGroup>
