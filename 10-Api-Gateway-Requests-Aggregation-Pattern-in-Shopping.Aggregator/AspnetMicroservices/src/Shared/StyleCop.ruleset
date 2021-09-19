@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RuleSet Name="StyleCop rules for Core Application" Description="Custom Rules" ToolsVersion="10.0">
+<RuleSet Name="StyleCop rules for Core Application" Description="Custom Rules" ToolsVersion="16.0">
     <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.CSharp.ReadabilityRules">
         <Rule Id="CS1573" Action="None" />
         <Rule Id="CS1591" Action="None" />
@@ -20,5 +20,8 @@
         <Rule Id="SA1633" Action="None" />
         <Rule Id="SA1642" Action="None" />
         <Rule Id="IDE0036" Action="None" />
+        <Rule Id="SX1101" Action="Warning" />
+        <Rule Id="SX1309" Action="Warning" />
+        <Rule Id="SX1309S" Action="Warning" />
     </Rules>
 </RuleSet>
