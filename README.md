@@ -217,8 +217,8 @@ Links:
 - [x] Gateway Aggregation pattern 03:18
 - [x] Analysis & Design of Shopping.Aggregator Microservices - Gateway Aggregation 03:22
 - [x] Developing Shopping.Aggregator Microservices 05:01
-- [ ] Developing Dto Model Class for Api Aggreation Operations 11:13
-- [ ] Developing Service Classes for Consuming Internal Microservices in Shopping.Aggr 21:31
+- [x] Developing Dto Model Class for Api Aggreation Operations 11:13
+- [x] Developing Service Classes for Consuming Internal Microservices in Shopping.Aggr 21:31
 - [ ] Developing Service Classes Consuming Internal Microservices in Shopping.Aggr-2 30:02
 - [ ] Test Shopping.Aggreation Microservices with Docker Internal Microservices 15:28
 - [ ] Containerize Shopping.Aggregator Microservices using Docker Compose 07:14
