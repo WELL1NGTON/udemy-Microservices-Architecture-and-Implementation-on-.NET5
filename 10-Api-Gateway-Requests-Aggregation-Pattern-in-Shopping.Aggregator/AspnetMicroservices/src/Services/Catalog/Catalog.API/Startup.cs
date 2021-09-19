@@ -1,5 +1,8 @@
 namespace Catalog.API
 {
+    using System;
+    using System.IO;
+    using System.Reflection;
     using Catalog.API.Data;
     using Catalog.API.Repositories;
     using Microsoft.AspNetCore.Builder;
@@ -25,6 +28,7 @@ namespace Catalog.API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Catalog.API", Version = "v1" });
+                c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"));
             });
 
             services.AddScoped<ICatalogContext, CatalogContext>();

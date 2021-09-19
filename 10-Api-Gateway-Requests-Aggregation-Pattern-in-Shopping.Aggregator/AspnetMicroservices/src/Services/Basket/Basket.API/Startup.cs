@@ -1,6 +1,8 @@
 namespace Basket.API
 {
     using System;
+    using System.IO;
+    using System.Reflection;
     using Basket.API.GrpcServices;
     using Basket.API.Repositories;
     using Discount.Grpc.Protos;
@@ -55,6 +57,7 @@ namespace Basket.API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Basket.API", Version = "v1" });
+                c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"));
             });
         }
 

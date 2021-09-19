@@ -219,10 +219,10 @@ Links:
 - [x] Developing Shopping.Aggregator Microservices 05:01
 - [x] Developing Dto Model Class for Api Aggreation Operations 11:13
 - [x] Developing Service Classes for Consuming Internal Microservices in Shopping.Aggr 21:31
-- [ ] Developing Service Classes Consuming Internal Microservices in Shopping.Aggr-2 30:02
-- [ ] Test Shopping.Aggreation Microservices with Docker Internal Microservices 15:28
-- [ ] Containerize Shopping.Aggregator Microservices using Docker Compose 07:14
-- [ ] Test on Docker environment - Shopping.Aggregator into Docker-Compose File 06:29
+- [x] Developing Service Classes Consuming Internal Microservices in Shopping.Aggr-2 30:02
+- [x] Test Shopping.Aggreation Microservices with Docker Internal Microservices 15:28
+- [x] Containerize Shopping.Aggregator Microservices using Docker Compose 07:14
+- [x] Test on Docker environment - Shopping.Aggregator into Docker-Compose File 06:29
 
 ### Securing Microservices with IdentityServer4 and Ocelot
 
