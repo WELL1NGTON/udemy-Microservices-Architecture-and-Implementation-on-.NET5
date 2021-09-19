@@ -226,7 +226,7 @@ Links:
 
 ### Securing Microservices with IdentityServer4 and Ocelot
 
-- [ ] Introduction 02:04
+- [x] Introduction 02:04
 
 ### Building Shopping Web Application Microservices
 

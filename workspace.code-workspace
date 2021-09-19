@@ -13,42 +13,42 @@
             "name": "Raiz do projeto",
             "path": "."
         },
-        // {
-        //     "name": "01-Resources",
-        //     "path": "01-Introduction/Resources"
-        // },
-        // {
-        //     "name": "02-AspnetMicroservices",
-        //     "path": "02-Developing-Your-First-Microservice-Catalog.API-with-MongoDb/AspnetMicroservices"
-        // },
-        // {
-        //     "name": "03-AspnetMicroservices",
-        //     "path": "03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices"
-        // },
-        // {
-        //     "name": "04-AspnetMicroservices",
-        //     "path": "04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices"
-        // },
-        // {
-        //     "name": "05-AspnetMicroservices",
-        //     "path": "05-Developing-Discount.Grpc-Microservices-for-Microservices-Grpc-Communication/AspnetMicroservices"
-        // },
-        // {
-        //     "name": "06-AspnetMicroservices",
-        //     "path": "06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/AspnetMicroservices"
-        // },
-        // {
-        //     "name": "07-AspnetMicroservices",
-        //     "path": "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices"
-        // },
-        // {
-        //     "name": "08-AspnetMicroservices",
-        //     "path": "08-Microservices-Async-Communication-with-RabbitMQ-and-MassTransit-for-Checkout-Order/AspnetMicroservices"
-        // },
-        // {
-        //     "name": "09-AspnetMicroservices",
-        //     "path": "09-Building-API-Gateways-with-Ocelot-and-Applying-Gateway-Routing-Pattern/AspnetMicroservices"
-        // },
+        {
+            "name": "01-Resources",
+            "path": "01-Introduction/Resources"
+        },
+        {
+            "name": "02-AspnetMicroservices",
+            "path": "02-Developing-Your-First-Microservice-Catalog.API-with-MongoDb/AspnetMicroservices"
+        },
+        {
+            "name": "03-AspnetMicroservices",
+            "path": "03-Developing-Basket.API-Microservices-with-Redis/AspnetMicroservices"
+        },
+        {
+            "name": "04-AspnetMicroservices",
+            "path": "04-Developing-Discount.API-Microservices-with-PostgreSQL/AspnetMicroservices"
+        },
+        {
+            "name": "05-AspnetMicroservices",
+            "path": "05-Developing-Discount.Grpc-Microservices-for-Microservices-Grpc-Communication/AspnetMicroservices"
+        },
+        {
+            "name": "06-AspnetMicroservices",
+            "path": "06-Consuming-Discount-Grpc-Service-From-Basket-Microservice-When-Adding-Cart-Item/AspnetMicroservices"
+        },
+        {
+            "name": "07-AspnetMicroservices",
+            "path": "07-Developing-Ordering-Microservices-with-Clean-Architecture-and-CQRS-Implemntation/AspnetMicroservices"
+        },
+        {
+            "name": "08-AspnetMicroservices",
+            "path": "08-Microservices-Async-Communication-with-RabbitMQ-and-MassTransit-for-Checkout-Order/AspnetMicroservices"
+        },
+        {
+            "name": "09-AspnetMicroservices",
+            "path": "09-Building-API-Gateways-with-Ocelot-and-Applying-Gateway-Routing-Pattern/AspnetMicroservices"
+        },
         {
             "name": "10-AspnetMicroservices",
             "path": "10-Api-Gateway-Requests-Aggregation-Pattern-in-Shopping.Aggregator/AspnetMicroservices"
