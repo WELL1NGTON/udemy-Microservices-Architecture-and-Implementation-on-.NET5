@@ -230,8 +230,8 @@ Links:
 
 ### [Building Shopping Web Application Microservices](12-Building-Shopping-Web-Application-Microservices/Notes.md)
 
-- [ ] Introduction 01:50
-- [ ] Background of Project 02:20
+- [x] Introduction 01:50
+- [x] Background of Project 02:20
 - [ ] Analysis & Design Shopping Web Application Microservice 03:07
 - [ ] Developing AspnetBasics Shopping Web Application Microservices 08:28
 - [ ] Overview of AspnetBasics Shopping Web Application Microservices 12:54
