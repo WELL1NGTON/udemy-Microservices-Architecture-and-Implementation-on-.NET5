@@ -228,7 +228,7 @@ Links:
 
 - [x] Introduction 02:04
 
-### Building Shopping Web Application Microservices
+### [Building Shopping Web Application Microservices](12-Building-Shopping-Web-Application-Microservices/Notes.md)
 
 - [ ] Introduction 01:50
 - [ ] Background of Project 02:20

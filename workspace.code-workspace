@@ -52,14 +52,18 @@
         {
             "name": "10-AspnetMicroservices",
             "path": "10-Api-Gateway-Requests-Aggregation-Pattern-in-Shopping.Aggregator/AspnetMicroservices"
+        },
+        {
+            "name": "12-AspnetMicroservices",
+            "path": "12-Building-Shopping-Web-Application-Microservices/AspnetMicroservices"
         }
     ],
     "settings": {
         "omnisharp.enableRoslynAnalyzers": true,
-        "omnisharp.defaultLaunchSolution": "10-Api-Gateway-Requests-Aggregation-Pattern-in-Shopping.Aggregator/AspnetMicroservices/src/aspnetrun-microservices.sln",
+        "omnisharp.defaultLaunchSolution": "12-Building-Shopping-Web-Application-Microservices/AspnetMicroservices/src/aspnetrun-microservices.sln",
         "vssolution.solutionExplorerIcons": "mix",
         "vssolution.altSolutionFolders": [
-            "10-Api-Gateway-Requests-Aggregation-Pattern-in-Shopping.Aggregator/AspnetMicroservices/src"
+            "12-Building-Shopping-Web-Application-Microservices/AspnetMicroservices/src"
         ],
         "sqltools.connections": [
             {
