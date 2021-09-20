@@ -5,3 +5,7 @@
 [submodule "01-Introduction/Resources/run-aspnet-grpc"]
 	path = 01-Introduction/Resources/run-aspnet-grpc
 	url = https://github.com/aspnetrun/run-aspnet-grpc
+	
+[submodule "01-Introduction/Resources/run-aspnetcore-basics"]
+	path = 01-Introduction/Resources/run-aspnetcore-basics
+	url = https://github.com/aspnetrun/run-aspnetcore-basics.git
