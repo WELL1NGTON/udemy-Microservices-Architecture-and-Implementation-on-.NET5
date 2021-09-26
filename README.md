@@ -232,7 +232,7 @@ Links:
 
 - [x] Introduction 01:50
 - [x] Background of Project 02:20
-- [ ] Analysis & Design Shopping Web Application Microservice 03:07
+- [x] Analysis & Design Shopping Web Application Microservice 03:07
 - [ ] Developing AspnetBasics Shopping Web Application Microservices 08:28
 - [ ] Overview of AspnetBasics Shopping Web Application Microservices 12:54
 - [ ] Refactoring of AspnetBasics Shopping Web Application Microservices 11:11

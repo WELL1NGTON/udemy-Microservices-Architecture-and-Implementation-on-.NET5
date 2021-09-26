@@ -42,3 +42,7 @@ Link do repostitório base: [run-aspnetcore-basics](https://github.com/aspnetrun
 
 - [Microsoft.AspNet.WebApi.Client](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Client/)
 - HTTPClientFactory
+
+### Developing AspnetBasics Shopping Web Application Microservices
+
+Adicionado o Projeto [AspnetRunBasics](https://github.com/aspnetrun/run-aspnetcore-basics) no diretório WebApps, baixando e descompactando o zip do github (conforme é mostrado no curso, utilizei a mesma maneira pois não sei o que vai ser feito com esse projeto).
