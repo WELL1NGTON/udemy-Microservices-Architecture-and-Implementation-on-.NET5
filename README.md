@@ -36,6 +36,10 @@ Links:
 - [Medium](https://mehmetozkaya.medium.com/)
 - [YouTube](https://www.youtube.com/user/mehmetozkaya)
 
+## Certificado de Conclusão Udemy
+
+[![Certificado Udemy](images/UC-38ba380b-a81e-41c1-8ddb-8bad1d8e7abb.jpg)](https://www.udemy.com/certificate/UC-38ba380b-a81e-41c1-8ddb-8bad1d8e7abb/)
+
 ## Progresso do curso
 
 16 seções • 177 aulas • Duração total: 24h 31m
@@ -226,8 +230,7 @@ Links:
 
 ### Securing Microservices with IdentityServer4 and Ocelot
 
-<!-- Curso separado, fazer -->
-- [ ] Introduction 02:04
+- [ ] Introduction 02:04 ([Curso Separado](https://www.udemy.com/course/secure-net-microservices-with-identityserver4-oauth2openid/))
 
 ### [Building Shopping Web Application Microservices](12-Building-Shopping-Web-Application-Microservices/Notes.md)
 
@@ -251,18 +254,15 @@ Links:
 
 ### Assignment - Developing Blazor Single Page Application with Custom Api Gateway
 
-<!-- Curso separado, fazer -->
 - [ ] Developing Blazor Single Page Application with Custom Api Gateway for CRUD 02:06
 
 ### Cross-Cutting Concerns - Microservices Observability with Distributed Logging
 
-<!-- Curso separado, fazer -->
-- [ ] Microservices Observability with Distributed Logging, Health Monitoring, Resilie 02:17
+- [ ] Microservices Observability with Distributed Logging, Health Monitoring, Resilie 02:17 ([Curso Separado](https://www.udemy.com/course/microservices-observability-resilience-monitoring-on-net/))
 
 ### Deploying Microservices to Kubernetes, Automating with Azure DevOps into AKS
 
-<!-- Curso separado, fazer -->
-- [ ] Deploying Microservices to Kubernetes, Automating with Azure DevOps into AKS 02:15
+- [ ] Deploying Microservices to Kubernetes, Automating with Azure DevOps into AKS 02:15 ([Curso Separado](https://www.udemy.com/course/deploying-net-microservices-with-k8s-aks-and-azure-devops/))
 
 ### Thanks and Bonus Lecture
 
