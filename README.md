@@ -226,7 +226,8 @@ Links:
 
 ### Securing Microservices with IdentityServer4 and Ocelot
 
-- [x] Introduction 02:04
+<!-- Curso separado, fazer -->
+- [ ] Introduction 02:04
 
 ### [Building Shopping Web Application Microservices](12-Building-Shopping-Web-Application-Microservices/Notes.md)
 
@@ -234,33 +235,36 @@ Links:
 - [x] Background of Project 02:20
 - [x] Analysis & Design Shopping Web Application Microservice 03:07
 - [x] Developing AspnetBasics Shopping Web Application Microservices 08:28
-- [ ] Overview of AspnetBasics Shopping Web Application Microservices 12:54
-- [ ] Refactoring of AspnetBasics Shopping Web Application Microservices 11:11
-- [ ] Register Http Client Factory for Consuming Api Gateway in AspnetBasics Shopping 06:41
-- [ ] Developing Service Implementations for Consuming Api Gateway in AspnetBasics 10:31
-- [ ] Developing Index Page in AspnetBasics Shopping Web Application Microservices 06:20
-- [ ] Developing Product Page in AspnetBasics Shopping Web Application Microservices 07:03
-- [ ] Developing Product Detail Page in AspnetBasics Shopping Web Application 02:36
-- [ ] Developing Cart and Order Page in AspnetBasics Shopping Web Application 08:36
-- [ ] Developing CheckOut Page in AspnetBasics Shopping Web Application Microservices 07:16
-- [ ] Refactoring Developments in AspnetBasics Shopping Web Application Microservices 04:37
-- [ ] Test AspnetBasics Shopping Web Application Microservices Over Ocelot Api Gateway 16:53
-- [ ] Containerize AspnetBasics Shopping Web Application Microservices using DC 06:39
-- [ ] Test on Docker environment - AspnetBasics Shopping Web Microservices into Docker 09:02
+- [x] Overview of AspnetBasics Shopping Web Application Microservices 12:54
+- [x] Refactoring of AspnetBasics Shopping Web Application Microservices 11:11
+- [x] Register Http Client Factory for Consuming Api Gateway in AspnetBasics Shopping 06:41
+- [x] Developing Service Implementations for Consuming Api Gateway in AspnetBasics 10:31
+- [x] Developing Index Page in AspnetBasics Shopping Web Application Microservices 06:20
+- [x] Developing Product Page in AspnetBasics Shopping Web Application Microservices 07:03
+- [x] Developing Product Detail Page in AspnetBasics Shopping Web Application 02:36
+- [x] Developing Cart and Order Page in AspnetBasics Shopping Web Application 08:36
+- [x] Developing CheckOut Page in AspnetBasics Shopping Web Application Microservices 07:16
+- [x] Refactoring Developments in AspnetBasics Shopping Web Application Microservices 04:37
+- [x] Test AspnetBasics Shopping Web Application Microservices Over Ocelot Api Gateway 16:53
+- [x] Containerize AspnetBasics Shopping Web Application Microservices using DC 06:39
+- [x] Test on Docker environment - AspnetBasics Shopping Web Microservices into Docker 09:02
 
 ### Assignment - Developing Blazor Single Page Application with Custom Api Gateway
 
+<!-- Curso separado, fazer -->
 - [ ] Developing Blazor Single Page Application with Custom Api Gateway for CRUD 02:06
 
 ### Cross-Cutting Concerns - Microservices Observability with Distributed Logging
 
+<!-- Curso separado, fazer -->
 - [ ] Microservices Observability with Distributed Logging, Health Monitoring, Resilie 02:17
 
 ### Deploying Microservices to Kubernetes, Automating with Azure DevOps into AKS
 
+<!-- Curso separado, fazer -->
 - [ ] Deploying Microservices to Kubernetes, Automating with Azure DevOps into AKS 02:15
 
 ### Thanks and Bonus Lecture
 
-- [ ] Bonus Lecture 05:41
-- [ ] Thanks 00:37
+- [x] Bonus Lecture 05:41
+- [x] Thanks 00:37

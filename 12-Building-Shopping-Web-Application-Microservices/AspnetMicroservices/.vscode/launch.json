@@ -155,7 +155,7 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "http://localhost:44334"
+                "ASPNETCORE_URLS": "http://localhost:5006"
             },
         },
     ],
