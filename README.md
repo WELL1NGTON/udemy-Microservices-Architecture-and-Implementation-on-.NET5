@@ -38,7 +38,7 @@ Links:
 
 ## Certificado de Conclusão Udemy
 
-[![Certificado Udemy](images/UC-38ba380b-a81e-41c1-8ddb-8bad1d8e7abb.jpg)](https://www.udemy.com/certificate/UC-38ba380b-a81e-41c1-8ddb-8bad1d8e7abb/)
+[![Certificado Udemy](images/UC-38ba380b-a81e-41c1-8ddb-8bad1d8e7abb.jpg)](http://ude.my/UC-38ba380b-a81e-41c1-8ddb-8bad1d8e7abb)
 
 ## Progresso do curso
 
