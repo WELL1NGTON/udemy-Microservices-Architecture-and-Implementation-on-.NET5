@@ -52,19 +52,23 @@
                             <label>Quantity :</label>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
-                                    <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus" data-field="">
+                                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"
+                                        data-type="minus" data-field="">
                                         <i class="fa fa-minus"></i>
                                     </button>
                                 </div>
-                                <input asp-for="Quantity" type="text" class="form-control" id="quantity" name="quantity" min="1" max="100" value="1">
+                                <input asp-for="Quantity" type="text" class="form-control" id="quantity" name="quantity"
+                                    min="1" max="100" value="1">
                                 <div class="input-group-append">
-                                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                                    <button type="button" class="quantity-right-plus btn btn-success btn-number"
+                                        data-type="plus" data-field="">
                                         <i class="fa fa-plus"></i>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <a href="javascript:;" onclick="parentNode.submit();" class="btn btn-success btn-lg btn-block text-uppercase">
+                        <a href="javascript:;" onclick="parentNode.submit();"
+                            class="btn btn-success btn-lg btn-block text-uppercase">
                             <i class="fa fa-shopping-cart"></i> Add To Cart
                         </a>
                         <input type="hidden" asp-for="@Model.Product.Id" name="productId" />
@@ -72,7 +76,8 @@
                     <div class="product_rassurance">
                         <ul class="list-inline">
                             <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br />Fast delivery</li>
-                            <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br />Secure payment</li>
+                            <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br />Secure payment
+                            </li>
                             <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br />+33 1 22 54 65 60</li>
                         </ul>
                     </div>
@@ -98,13 +103,14 @@
         <!-- Description -->
         <div class="col-12">
             <div class="card border-light mb-3">
-                <div class="card-header bg-primary text-white text-uppercase"><i class="fa fa-align-justify"></i> Description</div>
+                <div class="card-header bg-primary text-white text-uppercase"><i class="fa fa-align-justify"></i>
+                    Description</div>
                 <div class="card-body">
                     <p class="card-text">
-                        @Model.Product.Summary                        
+                        @Model.Product.Summary
                     </p>
                     <p class="card-text">
-                        @Model.Product.Description                        
+                        @Model.Product.Description
                     </p>
                 </div>
             </div>

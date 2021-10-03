@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace AspnetRunBasics
+﻿namespace AspnetRunBasics
 {
+    using Microsoft.AspNetCore.Mvc.RazorPages;
+
+#pragma warning disable SA1649
     public class ContactModel : PageModel
     {
         public void OnGet()
         {
-
         }
     }
 }

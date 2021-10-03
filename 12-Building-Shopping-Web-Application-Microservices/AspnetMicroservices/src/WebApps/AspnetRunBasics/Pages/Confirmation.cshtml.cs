@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace AspnetRunBasics
+﻿namespace AspnetRunBasics
 {
+    using Microsoft.AspNetCore.Mvc.RazorPages;
+
+#pragma warning disable SA1649
     public class ConfirmationModel : PageModel
     {
         public string Message { get; set; }

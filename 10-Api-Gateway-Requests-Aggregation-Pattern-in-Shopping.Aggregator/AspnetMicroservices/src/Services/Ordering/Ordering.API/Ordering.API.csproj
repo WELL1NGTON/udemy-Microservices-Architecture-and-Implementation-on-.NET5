@@ -6,12 +6,12 @@
     <NoDefaultLaunchSettingsFile>True</NoDefaultLaunchSettingsFile>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..</DockerfileContext>
-    <CodeAnalysisRuleSet>..\..\..\Shared\StyleCop.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\..\..\CodeAnalysis\StyleCop.ruleset</CodeAnalysisRuleSet>
     <UserSecretsId>8a3a8158-6428-4ff9-913b-8df19b8c52c6</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <AdditionalFiles Include="..\..\..\Shared\stylecop.json">
+    <AdditionalFiles Include="..\..\..\CodeAnalysis\stylecop.json">
       <Link>stylecop.json</Link>
     </AdditionalFiles>
   </ItemGroup>
