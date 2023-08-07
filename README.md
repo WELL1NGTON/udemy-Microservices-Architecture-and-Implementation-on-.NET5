@@ -1,6 +1,6 @@
 # Microservices Architecture and Implementation on .NET 5
 
-[![Udemy](https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.png)](https://www.udemy.com/)
+[![Udemy](https://logos-world.net/wp-content/uploads/2021/11/Udemy-Logo-2021-present-700x394.png)](https://www.udemy.com/)
 
 Curso Udemy: [Microservices Architecture and Implementation on .NET 5](https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/)
 
